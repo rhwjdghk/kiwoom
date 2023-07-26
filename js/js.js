@@ -6,32 +6,21 @@ $(function(){
         mouseover:function(){
             $(".gnb .m").css({color:'#000', fontWeight:'600'}),
             $(".header_nav").stop(true).animate({flexBasis:'70%'}),
-            $(" .header_sub").css({
-                width:'100%',
-                height:'31vh',
-                opacity:'1',
-                visibility:'inherit',
-                transitionDelay:'0.2s'
-            }),
             $(".language").find("a").css({color:'#000'}),
             $(".btn").css({color:'#000'})
-            $(".header_bg").stop(true).slideDown(300);
+
+            $(".header_bg").stop(true).slideDown(100);
+            $(" .header_sub").stop(true).show();
 
         },
-        mouseleave:function(){
+        mouseout:function(){
             $(".gnb .m").css({color:'#fff',fontWeight:'400'}),
             $(".header_nav").stop(true).animate({flexBasis:'58%'}),
-            $(" .header_sub").css({
-                width:'0',
-                height:'0',
-                opacity:'0',
-                visibility:'hidden',
-                transitionDelay:'-0.1s'
-            }),
             $(".language").find("a").css({color:'#fff'}),
             $(".btn").css({color:'#fff'})
 
-            $(".header_bg").stop(true).slideUp(300);
+            $(".header_bg").stop(true).slideUp();
+            $(" .header_sub").stop(true).hide();
         }
     });
 
