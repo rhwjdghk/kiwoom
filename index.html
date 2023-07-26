@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIWOOM</title>
+    <link rel="shortcut icon" href="img/fivicon.ico.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ban_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="https://kit.fontawesome.com/a3379ca11a.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/js.js"></script>
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div id="header">
+            <h1 class="logo">
+                <a href="#">
+                    <img src="img/kiwoom_logo.png" alt="키움히어로즈 로고">
+                </a>
+                <p hidden>키움 히어로즈</p>
+            </h1>
+            <div class="header_nav">
+                <ul class="gnb">
+                    <li class="m"><a href="sub/sub1.html">heroes</a> <span></span>
+                        <ul class="header_sub">
+                            <li><a href="sub/sub1.html">히어로즈</a></li>
+                            <li><a href="#">BI</a></li>
+                            <li><a href="#">구단 파트너</a></li>
+                            <li><a href="#">구장 안내</a></li>
+                        </ul>
+                    </li>
+                    <li  class="m"><a href="sub/sub2.html">players</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="sub/sub2.html">코칭 스탭</a></li>
+                            <li><a href="#">투수</a></li>
+                            <li><a href="#">포수</a></li>
+                            <li><a href="#">내야수</a></li>
+                            <li><a href="#">외야수</a></li>
+                            <li><a href="#">신인선수</a></li>
+                            <li><a href="#">군입대선수</a></li>
+                        </ul>
+                    </li>
+                    <li  class="m"><a href="#">games</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="#">경기일정 및 결과</a></li>
+                            <li><a href="#">팀순위</a></li>
+                            <li><a href="#">투수성적</a></li>
+                            <li><a href="#">타자성적</a></li>
+                            <li><a href="#">전체투수</a></li>
+                            <li><a href="#">전체 타자</a></li>
+                            <li><a href="#">선수 등록 현황</a></li>
+                        </ul>
+                    </li>
+                    <li  class="m"><a href="#">media</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="#">구단 소식</a></li>
+                            <li><a href="#">video</a></li>
+                            <li><a href="#">photos</a></li>
+                        </ul>
+                    </li>
+                    <li  class="m"><a href="#">fans</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="#">영웅 게시판</a></li>
+                            <li><a href="#">shop</a></li>
+                            <li><a href="#">응원단</a></li>
+                            <li><a href="#">faq</a></li>
+                        </ul>
+                    </li>
+                    <li  class="m"><a href="#">ticket</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="#">일일 티켓</a></li>
+                            <li><a href="#">8경기 티켓</a></li>
+                            <li><a href="#">연간 회원</a></li>
+                            <li><a href="#">멤버십</a></li>
+                            <li><a href="#">단체 관람</a></li>
+                            <li><a href="#">스카이박스</a></li>
+                            <li><a href="#">고양히어로즈 티켓</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_right">
+                <div class="btn">
+                    <a href="#">
+                        <i class="fa-regular fa-user"></i>
+                    </a>
+                </div>
+                <div class="language">
+                    <a href="#">
+                        <i class="fas fa-regular fa-chevron-down"></i>
+                        kor
+                    </a>
+                    <a href="#">eng</a>
+                </div>
+            </div>
+        </div>
+        <div class="header_bg"></div>
+    </header>
+
+    <!-- 햄바그 -->
+    <div class="ham">
+        <div>
+            <span class="rotate"></span>
+            <span class="none"></span>
+            <span class="rotate"></span>
+        </div>
+    </div>
+
+    <!-- 모바일 nav -->
+    <div id="mobilnav">
+        <div class="mnav_wrap">
+            <div class="mnav_log">
+                로그인 / 회원가입
+            </div>
+            <ul class="mnav_main">
+                <li>herose <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="sub/sub1.html">히어로즈 소개</a></li>
+                        <li><a href="#">구단 bi</a></li>
+                        <li><a href="#">구단 파트너</a></li>
+                        <li><a href="#">구장 안내</a></li>
+                    </ul>
+                </li>
+                <li>
+                    players <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="sub/sub2.html">코칭 스탭</a></li>
+                        <li><a href="#">투수</a></li>
+                        <li><a href="#">포수</a></li>
+                        <li><a href="#">내야수</a></li>
+                        <li><a href="#">외야수</a></li>
+                        <li><a href="#">신인선수</a></li>
+                        <li><a href="#">군입대선수</a></li>
+                    </ul>
+                </li>
+                <li>
+                    games <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="#">경기일정 및 결과</a></li>
+                        <li><a href="#">팀순위</a></li>
+                        <li><a href="#">투수성적</a></li>
+                        <li><a href="#">타자성적</a></li>
+                        <li><a href="#">전체투수</a></li>
+                        <li><a href="#">전체타자</a></li>
+                        <li><a href="#">선수 등록 현황</a></li>
+                    </ul>
+                </li>
+                <li>
+                    media <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="#">구단 소식</a></li>
+                        <li><a href="#">video</a></li>
+                        <li><a href="#">photos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    fans <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="#">영웅 게시판</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">응원단</a></li>
+                        <li><a href="#">faq</a></li>
+                    </ul>
+                </li>
+                <li>
+                    ticket <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="#">일일 티켓</a></li>
+                        <li><a href="#">8경기 티켓</a></li>
+                        <li><a href="#">연간 회원</a></li>
+                        <li><a href="#">맴버십</a></li>
+                        <li><a href="#">단체 관람</a></li>
+                        <li><a href="#">스카이박스</a></li>
+                        <li><a href="#">고양 히어로즈 티켓</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 메인 영상-->
+    <div id="m_banner">
+        <h2 hidden>비디오</h2>
+        <div class="video">
+            <div class="video-container">
+                <video autoplay loop muted>
+                    <source src="video/키움.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="scroll_guide">
+            <div class="s_box"><span></span></div>
+            <p>Scroll</p>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div id="main">
+
+        <!-- 왼쪽 위치 바 -->
+        <div class="m_bar fixed">
+            <ul class="mbarul">
+                <li class="m_bnt">
+                    <!-- 선택된 동그라미는 야구공으로 변신 -->
+                    <div class="bar_c">
+                        <img src="img/main_bar(game).png" alt="">
+                    </div>
+                    <a href="#" class="m_g">games</a>
+                </li>
+                <li class="m_bnt">
+                    <div class="bar_c">
+                        <img src="img/main_bar(game).png" alt="">
+                    </div>
+                    <a href="#" class="m_p">players</a>
+                </li>
+                <li class="m_bnt">
+                    <div class="bar_c">
+                        <img src="img/main_bar(game).png" alt="">
+                    </div>
+                    <a href="#" class="m_v">video</a>
+                </li>
+                <li class="m_bnt">
+                    <div class="bar_c">
+                        <img src="img/main_bar(game).png" alt="">
+                    </div>
+                    <a href="#" class="m_m">media</a>
+                </li>
+                <li class="m_bnt">
+                    <div class="bar_c">
+                        <img src="img/main_bar(game).png" alt="">
+                    </div>
+                    <a href="#" class="m_s">shop</a>
+                </li>
+                <li class="m_bnt">
+                    <div class="bar_c">
+                        <img src="img/main_bar(game).png" alt="">
+                    </div>
+                    <a href="#" class="m_sd">stadium</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 경기일정 -->
+        <div id="g_wrap">
+            <section class="game">
+                <div class="g_title">
+                    <h2 class="ativeH">8위</h2>
+                    <div class="state_p ativeP">
+                        18승 24패 0무 <span>연속 2승 / 승률 0.442</span>
+                    </div>
+                </div>
+                <div class="game_content swiper GameSwiper gameSwiper ativeCon">
+                    <div class="game_ct swiper-wrapper">
+                        <div class="game_con g_1 swiper-slide">
+                            <div class="date">
+                                <p>고척</p>
+                                <p>2023.05.26(금) 18:30</p>
+                                <p>경기종료</p>
+                            </div>
+                            <div class="team">
+                                <div class="tm">
+                                    <img src="img/lotte_logo.png" alt="롯데 자이언츠 로고">
+                                    <p>선발 : 스트레일리</p>
+                                </div>
+                                <div class="Score">2:0</div>
+                                <div class="tm">
+                                    <img src="img/kiwoom_logo.png" alt="키움 히어로즈로고">
+                                    <p>선발 : 후라도</p>
+                                </div>
+                            </div>
+                            <a href="#">예매하기</a>
+                        </div>
+                        <div class="game_con g_2 swiper-slide">
+                            <div class="date">
+                                <p>고척</p>
+                                <p>2023.05.27(토) 14:00</p>
+                                <p>경기종료</p>
+                            </div>
+                            <div class="team">
+                                <div class="tm">
+                                    <img src="img/lotte_logo.png" alt="롯데 자이언츠 로고">
+                                    <p>선발 : 반즈</p>
+                                </div>
+                                <div class="Score">6:5</div>
+                                <div class="tm">
+                                    <img src="img/kiwoom_logo.png" alt="키움 히어로즈로고">
+                                    <p>선발 : 최원태</p>
+                                </div>
+                            </div>
+                            <a href="#">예매하기</a>
+                        </div>
+                        <div class="game_con g_3 swiper-slide">
+                            <div class="date">
+                                <p>고척</p>
+                                <p>2023.05.28(일) 14:00</p>
+                                <p>경기종료</p>
+                            </div>
+                            <div class="team">
+                                <div class="tm">
+                                    <img src="img/lotte_logo.png" alt="롯데 자이언츠 로고">
+                                    <p>선발 : 나균안</p>
+                                </div>
+                                <div class="Score">5:7</div>
+                                <div class="tm">
+                                    <img src="img/kiwoom_logo.png" alt="키움 히어로즈로고">
+                                    <p>선발 : 정찬헌</p>
+                                </div>
+                            </div>
+                            <a href="#">예매하기</a>
+                        </div>
+                        <div class="game_con g_4 swiper-slide">
+                            <div class="date">
+                                <p>대전</p>
+                                <p>2023.05.30(화) 18:30</p>
+                                <p>경기종료</p>
+                            </div>
+                            <div class="team">
+                                <div class="tm">
+                                    <img src="img/kiwoom_logo.png" alt="키움 히어로즈로고">
+                                    <p>선발 : 안우진</p>
+                                </div>
+                                <div class="Score">1:7</div>
+                                <div class="tm">
+                                    <img src="img/hanhaw_logo.png" alt="한화 이글스 로고">
+                                    <p>선발 : 산체스</p>
+                                </div>
+                            </div>
+                            <a href="#">예매하기</a>
+                        </div>
+                        <div class="game_con g_5 swiper-slide">
+                            <div class="date">
+                                <p>대전</p>
+                                <p>2023.05.30(수) 18:30</p>
+                                <p>경기종료</p>
+                            </div>
+                            <div class="team">
+                                <div class="tm">
+                                    <img src="img/kiwoom_logo.png" alt="키움 히어로즈로고">
+                                    <p>선발 : 요키시</p>
+                                </div>
+                                <div class="Score">15:3</div>
+                                <div class="tm">
+                                    <img src="img/hanhaw_logo.png" alt="한화 이글스 로고">
+                                    <p>선발 : 장민재</p>
+                                </div>
+                            </div>
+                            <a href="#">예매하기</a>
+                        </div>
+                        <div class="game_con g_6 swiper-slide">
+                            <div class="date">
+                                <p>대전</p>
+                                <p>2023.06.01(목) 18:30</p>
+                                <p>경기예정</p>
+                            </div>
+                            <div class="team">
+                                <div class="tm">
+                                    <img src="img/kiwoom_logo.png" alt="키움 히어로즈로고">
+                                    <p>선발 : 후라도</p>
+                                </div>
+                                <div class="Score">0:0</div>
+                                <div class="tm">
+                                    <img src="img/hanhaw_logo.png" alt="한화 이글스 로고">
+                                    <p>선발 : 문동주</p>
+                                </div>
+                            </div>
+                            <a href="#">예매하기</a>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <span class="left swiper-button-next"></span>
+                        <span class="right right swiper-button-prev"></span>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- section 선수단 -->
+        <section id="herose">
+            <h2 class="ativeH">우리의 히어로즈</h2>
+            <p class="ativeP">젊은 패기와 도전으로 꿈을 향해 뛰겠습니다.</p>
+            <div class="vm">
+                <a href="sub/sub2.html">
+                    view more
+                    <div class="vm_btn">
+                        <div>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="vm_btnbg"></div>
+                    </div>
+                </a>
+            </div>
+            <div class="herose_ct ativeCon">
+                <div class="herose_con h_1" >
+                    <div class="herose_tt">
+                        <div>
+                            <p>코</p>
+                            <p>칭</p>
+                            <p>스</p>
+                            <p>탭</p>
+                        </div>
+                        <a href="#"><span></span></a>
+                    </div>
+                    <div class="bg"></div>
+                </div>
+                <div class="herose_con h_2">
+                    <div class="herose_tt">
+                        <div>
+                            <p>투</p>
+                            <p>수</p>
+                        </div>
+                        <a href="#"><span></span></a>
+                    </div>
+                    <div class="bg"></div>
+                </div>
+                <div class="herose_con h_3">
+                    <div class="herose_tt">
+                        <div>
+                            <p>포</p>
+                            <p>수</p>
+                        </div>
+                        <a href="#"><span></span></a>
+                    </div>
+                    <div class="bg"></div>
+                </div>
+                <div class="herose_con h_4">
+                    <div class="herose_tt">
+                        <div>
+                            <p>내</p>
+                            <p>야</p>
+                            <p>수</p>
+                        </div>
+                        <a href="#"><span></span></a>
+                    </div>
+                    <div class="bg"></div>
+                </div>
+                <div class="herose_con h_5">
+                    <div class="herose_tt">
+                        <div>
+                            <p>외</p>
+                            <p>야</p>
+                            <p>수</p>
+                        </div>
+                        <a href="#"><span></span></a>
+                    </div>
+                    <div class="bg"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 유툽 영상 -->
+        <div id="v_wrap">
+            <section class="video">
+                <h2 class="ativeH">히어로즈 영상</h2>
+                <p class="ativeP">늘 같은 자리에서 팬 여러분과 함께 새로운 역사를 만들어 가겠습니다.</p>
+
+                <div class="vm">
+                    <a href="#">
+                        view more
+                        <div class="vm_btn">
+                            <div>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="player" class="ativeCon">
+                    <div id="player_screen">
+                        <div class="top_img">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/pdeg_a_cSLo?controls=0"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div id="player_text">
+                        <div class="p_title">
+                            <a href="#" class="player_dt">
+                                <span>[리액션캠]</span>
+                                <p>프로 아이돌 에릭에서 한명의 야구팬 손영재로 돌아가는 순간 (05.27)</p>
+                            </a>
+                            <div class="player_dd"><a href="#">2023.05.28(일)</a></div>
+                        </div>
+                        <a href="https://www.youtube.com/@heroesbaseballclub" target="_blank" class="p_vm">
+                            <p>view more</p> 
+                            <div></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="list" class="ativeCon">
+                    <div class="listwrap swiper yuSwiper">
+                        <div class="move_list swiper-wrapper">
+                            <div class="movs swiper-slide">
+                                <a href="#" class="thumb">
+                                    <img src="img/video_1.jpg" alt="비디오1 썸네일">
+                                </a>
+                                <a href="#" class="list_dt">
+                                    <span>[리액션캠]</span>
+                                    <p>프로 아이돌 에릭에서 한명의 야구팬 손영재로 돌아가는 순간 (05.27)</p>
+                                </a>
+                                <div class="desc">
+                                    <a href="#">2023.05.29(일)</a>
+                                </div>
+                                <div class="url">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pdeg_a_cSLo?controls=0"
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                                
+                            </div>
+                            <div class="movs swiper-slide">
+                                <a href="#" class="thumb">
+                                    <img src="img/video_2.jpg" alt="비디오2 썸네일">
+                                </a>
+                                <a href="#" class="list_dt">
+                                    <span>[시구]</span>
+                                    <p>목동키즈 에릭 드디어 고척 마운드에서 서다 (05.27)</p>
+                                </a>
+                                <div class="desc">
+                                    <a href="#">2023.05.29(일)</a>
+                                </div>
+                                <div class="url">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1p-d1IBr5HA?controls=0"
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                                
+                            </div>
+                            <div class="movs swiper-slide">
+                                <a href="#" class="thumb">
+                                    <img src="img/video_3.jpg" alt="비디오3 썸네일">
+                                </a>
+                                <a href="#" class="list_dt">
+                                    <span>[속보]</span>
+                                    <p>승리요정 이하준(5세) 고척돔 나들이</p>
+                                </a>
+                                <div class="desc">
+                                    <a href="#">2023.05.29(일)</a>
+                                </div>
+                                <div class="url">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/teCjjwucISw?controls=0"
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="movs swiper-slide">
+                                <a href="#" class="thumb">
+                                    <img src="img/video_4.jpg" alt="비디오4 썸네일">
+                                </a>
+                                <a href="#" class="list_dt">
+                                    <p>임지열 데뷔 첫 그랜드슬램!!! | 히어로캠 (05.28)</p>
+                                </a>
+                                <div class="desc">
+                                    <a href="#">2023.05.29(일)</a>
+                                </div>
+                                <div class="url">
+                                    <iframe class="url" width="560" height="315"
+                                    src="https://www.youtube.com/embed/ODdy6hpzjw4?controls=0" title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="movs swiper-slide">
+                                <a href="#" class="thumb"><img src="img/video_5.jpg" alt="비디오5 썸네일"></a>
+                                <a href="#" class="list_dt">
+                                    <span>[후토크]</span>
+                                    <p>임지열의 타석에는 낭만이 있다</p>
+                                </a>
+                                <div class="desc">
+                                    <a href="#">2023.05.28(토)</a>
+                                </div>
+                                <div class="url">
+                                    <iframe class="url" width="560" height="315"
+                                    src="https://www.youtube.com/embed/ODdy6hpzjw4?controls=0" title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="movs swiper-slide">
+                                <a href="#" class="thumb"><img src="img/video_6.jpg" alt="비디오6 썸네일"></a>
+                                <a href="#" class="list_dt">
+                                    <p>♡주니어들이 덕아웃 놀러오는 건 언제나 대환영♡</p>
+                                </a>
+                                <div class="desc">
+                                    <a href="#">2023.05.22(월)</a>
+                                </div>
+                                <div class="url">
+                                    <iframe class="url" width="560" height="315" src="https://www.youtube.com/embed/OJnXZlq1acw?controls=0"
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="movs swiper-slide">
+                                <a href="#" class="thumb">
+                                    <img src="img/video_7.jpg" alt="비디오7 썸네일">
+                                </a>
+                                <a href="#" class="list_dt">
+                                    <p>안우진 3타자 연속 3구 삼진 잡아내며 시즌 3승 | 히어로캠(05.18)</p>
+                                </a>
+                                <div class="desc">
+                                    <a href="#">2023.05.19(금)</a>
+                                </div>
+                                <div class="url">
+                                    <iframe class="url" width="560" height="315" src="https://www.youtube.com/embed/32FFIH1ateM?controls=0"
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="movs swiper-slide">
+                                <a href="#" class="thumb">
+                                    <img src="img/video_8.jpg" alt="비디오8 썸네일">
+                                </a>
+                                <a href="#" class="list_dt"><span>[후토크]</span><p>반짝반짝 빛나는 눈망울을 가진 이원석 (05.18)</p></a>
+                                <div class="desc">
+                                    <a href="#">2023.05.19(금)</a>
+                                </div>
+                                <div class="url">
+                                    <iframe class="url" width="560" height="315" src="https://www.youtube.com/embed/ono1okq5AJw?controls=0"
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="movs swiper-slide">
+                                <a href="#" class="thumb"><img src="img/video_9.jpg" alt="비디오9 썸네일"></a>
+                                <a href="#" class="list_dt">
+                                    <p>#케플러 (Kep1er) 그라운드&단상 공연</p>
+                                </a>
+                                <div class="desc">
+                                    <a href="#">2023.05.18(목)</a>
+                                </div>
+                                <div class="url">
+                                    <iframe class="url" width="560" height="315" src="https://www.youtube.com/embed/99UNuH30yko?controls=0"
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="movs swiper-slide">
+                                <a href="#" class="thumb"><img src="img/video_10.jpg" alt="비디오10 썸네일"></a>
+                                <a href="#" class="list_dt">
+                                    <p>고척돔에 케냥이들 도착! #kep1er 시구&시타</p>
+                                </a>
+                                <div class="desc">
+                                    <a href="#">2023.05.18(목)</a>
+                                </div>
+                                <div class="url">
+                                    <iframe class="url" width="560" height="315" src="https://www.youtube.com/embed/76zYepIm7qI?controls=0"
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="movs swiper-slide">
+                                <a href="#" class="thumb"><img src="img/video_11.jpg" alt="비디오11 썸네일"></a>
+                                <a href="#" class="list_dt">
+                                    <p>혜성이 형.. 제가 할 말이 있어요</p>
+                                </a>
+                                <div class="desc">
+                                    <a href="#">2023.05.17(수)</a>
+                                </div>
+                                <div class="url">
+                                    <iframe class="url" width="560" height="315" src="https://www.youtube.com/embed/2oMzsnWTXqQ?controls=0"
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="movs swiper-slide">
+                                <a href="#" class="thumb"><img src="img/video_12.jpg" alt="비디오8 썸네일"></a>
+                                <a href="#" class="list_dt"><span>[※희귀영상]</span><p>야식으로 라면 먹는 김혜성</p></a>
+                                <div class="desc">
+                                    <a href="#">2023.05.16(화)</a>
+                                </div>
+                                <div class="url">
+                                    <iframe class="url" width="560" height="315" src="https://www.youtube.com/embed/KgLbSbxPY6I?controls=0"
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        </div>
+
+        <!-- section 소식 -->
+        <section id="media">
+            <h2 class="ativeH">히어로즈 소식</h2>
+            <p class="ativeP">키움 히어로즈 공식 홈페이지에서 다양한 소식과 이벤트를 만나 보세요.</p>
+
+            <div class="vm">
+                <a href="#">
+                    view more
+                    <div class="vm_btn">
+                        <div>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="vm_btnbg"></div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="media_ct swiper mediaSwiper ativeCon">
+                <div class="mediawrap swiper-wrapper">
+                    <!-- 1 -->
+                    <div class="media_con1 swiper-slide">
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img">
+                                    <img src="img/media_1.jpg" alt="소식1 이미지">
+                                </div>
+                                <p>하티스푼과 파트너십 계약 체결</p>
+                                <span>2023.05.31</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_2.png" alt="소식2 이미지"></div>
+                                <p>2023 KBO 리그 정규시즌 중계일정(05.30~06.04)</p>
+                                <span>2023.05.27</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_3.jpg" alt="소식3 이미지"></div>
+                                <p>엠지코리아와 파트너십 계약 체결</p>
+                                <span>2023.05.27</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_4.jpg" alt="소식4 이미지"></div>
+                                <p>28일(일) 롯데전 걸그룹 퍼플키스 시구 및 시타</p>
+                                <span>2023.05.26</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_5.jpg" alt="소식5 이미지"></div>
+                                <p>27일(토) 롯데전 보이그룹 '더보이즈' 에릭 시구</p>
+                                <span>2023.05.25</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_6.png" alt="소식6 이미지"></div>
+                                <p>26일(금) 롯데전 'KB라이프 생명 파트너데이' 행사 진행</p>
+                                <span>2023.05.24</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_7.png" alt="소식7 이미지"></div>
+                                <p>2023 KBO 리그 정규시즌 중계일정(05.23~05.28)</p>
+                                <span>2023.05.20</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_8.jpg" alt="소식8 이미지"></div>
+                                <p>GS안과와 파트너십 계약 체결</p>
+                                <span>2023.05.18</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="media_con2 swiper-slide">
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_9.jpg" alt="소식9 이미지"></div>
+                                <p>18일(목) 두산전 '백조씽크 파트너데이'행사 진행</p>
+                                <span>2023.05.17</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_10.jpg" alt="소식10 이미지"></div>
+                                <p>17일(수) 두산전 걸그룹 ‘케플러’ 시구 및 시타</p>
+                                <span>2023.05.16</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_11.jpg" alt="소식11 이미지"></div>
+                                <p>16일(화) 두산전 ‘나의 영웅을 소개합니다’ 이벤트 진행</p>
+                                <span>2023.05.15</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_12.jpg" alt="소식12 이미지"></div>
+                                <p>14일(일) 외야수 주성원 퓨처스리그 사이클링히트 기록 달성 시상식 실시</p>
+                                <span>2023.05.14</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_13.png" alt="소식13 이미지"></div>
+                                <p>서울시설공단, 서울아트책보고와 가정의 달 행사 진행</p>
+                                <span>2023.05.14</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_14.jpg" alt="소식14 이미지"></div>
+                                <p>키움과 SGC이테크건설, 소아암 환아 위해 기부금 전달</p>
+                                <span>2023.05.12</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_15.jpg" alt="소식15 이미지"></div>
+                                <p>14일(일) NC전 ‘서민금융진흥원 파트너데이’ 행사 진행</p>
+                                <span>2023.05.12</span>
+                            </a>
+                        </div>
+                        <div class="media_con">
+                            <a href="#">
+                                <div class="md_img"><img src="img/media_16.jpg" alt="소식16 이미지"></div>
+                                <p>13일(토) NC전 걸그룹 ‘드림캐쳐’ 수아 시구</p>
+                                <span>2023.05.11</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- 샵 -->
+        <div id="shop">
+            <div class="shop_text">
+                <p class="ativeShop">키움 히어로즈</p>
+                <p class="ativeShop">공식상품 판매샵</p>
+                <span class="ativeShop">모두와 함께하는 인터파크 md shop</span>
+            </div>
+            <a href="http://ticket.interpark.com/contents/Promotion/MDShopList?dispNo=001780002001" target="_blank" class="ativeShopbnt">
+                <p>shop 바로가기</p>
+                <span></span>
+                <div class="s_btnbg"></div>
+            </a>
+        </div>
+
+        <!-- section 고척 -->
+        <section id="dom">
+            <h2 class="ativeH">고척 스카이돔</h2>
+            <p class="ativeP">고척 스카이돔에서 키움 히어로즈의 새로운 역사가 시작됩니다.</p>
+            <div class="vm">
+                <a href="#">
+                    view more
+                    <div class="vm_btn">
+                        <div>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="vm_btnbg"></div>
+                    </div>
+                </a>
+            </div>
+            <div class="dom_ct">
+                <div class="dom_map ativeCon">
+                    <img src="img/dom_car.png" alt="고척스카이돔 자동차로 오는길 지도">
+                </div>
+                <div class="dom_way ativeCon" id="accordion">
+                    <div class="way car">
+                        <div class="title car_ti">
+                            <p>
+                                <i class="fas fa-solid fa-car"></i>
+                                자가용
+                            </p>
+                            <span></span>
+                        </div>
+                        <div class="text car_tt">
+                            <div>
+                                <p>올림픽도로</p>
+                                <span>영등포R → 영등포역앞(경인국도46번) → 신도림역 → 고척교 → 동양미래대학교 골목길 유턴→ 고척 스카이돔</span>
+                            </div>
+                            <div>
+                                <p>강변북로</p>
+                                <span>마포대교 → 여의도광장앞 → 서울교 → 영등포역앞 → 고척교 → 동양미래대학교 골목길 유턴→ 고척 스카이돔</span>
+                            </div>
+                            <div>
+                                <p>남부순환로</p>
+                                <span>오류IC → 고척교방향 → 구로소방서 → 고척스카이돔</span>
+                            </div>
+                            <div>
+                                <p>서부간선<span>(서서울IC)</p>
+                                <span>고척교에서 OUT → 롯데마트 좌회전 → 고척교 → 동양미래대학교 골목길 유턴 → 고척 스카이돔</span>
+                            </div>
+                            <div>
+                                <p>서부간선<span>(성산대교)</span></p>
+                                <span>고척교에서 OUT → 롯데마트 우회전 → 고척교 → 동양미래대학교 골목길 유턴 → 고척 스카이돔</span>
+                            </div>
+                            <div>
+                                <p>경부고속도로</p>
+                                <span>올림픽도로 → 김포공항방향 → 영등포R → 고척교 → 동양미래대학교 골목길 유턴 → 고척 스카이돔</span>
+                            </div>
+                            <div>
+                                <p>영동고속도로</p>
+                                <span>신갈분기점 → 안산분기점JC(성산대교방향) → 서서울TG → 고척교OUT → 롯데마트 좌회전 → 고척 스카이돔</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="way subway">
+                        <div class="title way_ti">
+                            <p>
+                                <i class="fas fa-solid fa-train-subway"></i>
+                                지하철
+                            </p>
+                            <span></span>
+                        </div>
+                        <div class="text sub_tt">
+                            <div>
+                                <p>
+                                    <span class="one">1</span>
+                                    <span>2</span>
+                                    신도림역
+                                </p>
+                                <span>1번, 5번 출구에서 버스 이용 시 3정거장 소요<br>버스 : 160번 외 9개 노선운행</span>
+                            </div>
+                            <div>
+                                <p><span>2</span>구로역</p>
+                                <span>2번 출구에서 좌회전하여 1km 직진 후, 고척교 건너 좌측 위치(도보 약 20분)<br>버스: 5712번, 5626번</span>
+                            </div>
+                            <div>
+                                <p><span>1</span>개봉역</p>
+                                <span>2번 출구에서 200m 직진 후, 우회전하여 650m 직진 후 우측 위치(도보 약 15분)<br>버스: 마을버스06번 (고척교 방향)</span>
+                            </div>
+                            <div>
+                                <p><span>1</span>구일역</p>
+                                <span>2번 출구에서 약 100m 직진 후 고척스카이돔 정면 출입문 게이트 통해 입장 (도보 약 3분)<br>버스 이용 필요 없음</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="way bus">
+                        <div class="title bus_ti">
+                            <p>
+                                <i class="fas fa-solid fa-bus-simple"></i>
+                                버스
+                            </p>
+                            <span></span>
+                        </div>
+                        <div class="text bus_tt">
+                            <div>
+                                <p>간선버스</p>
+                                <span>600번, 662번, 660번, 160번, N16번</span>
+                            </div>
+                            <div>
+                                <p>일반버스</p>
+                                <span>88번, 10번, 83번, 510번, 530번</span>
+                            </div>
+                            <div>
+                                <p>일반버스</p>
+                                <span>5626번, 5712번, 6713번, 6515번, 6637번, 6640A번</span>
+                            </div>
+                            <div>
+                                <p>간선버스</p>
+                                <span>301번, 320번, 5200번</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- 상단으로 바로가기 버튼 -->
+    <button type="button" class="Topbnt">top</button>
+
+    <!-- 파트너 -->
+    <div id="partner">
+        <div class="move_pt">
+            <a href="#"><img src="img/partner_1.png" alt="키움증권 로고"></a>
+            <a href="#"><img src="img/partner_2.png" alt="sgc 로고"></a>
+            <a href="#"><img src="img/partner_3.png" alt="바프 로고"></a>
+            <a href="#"><img src="img/partner_4.png" alt="kb라이프생명 로고"></a>
+            <a href="#"><img src="img/partner_5.png" alt="나이키 로고"></a>
+            <a href="#"><img src="img/partner_6.png" alt="태안모터스 로고"></a>
+            <a href="#"><img src="img/partner_7.png" alt="대원 로고"></a>
+            <a href="#"><img src="img/partner_8.png" alt="사람인 로고"></a>
+            <a href="#"><img src="img/partner_9.png" alt="휴온스 로고"></a>
+            <a href="#"><img src="img/partner_10.png" alt="농심 로고"></a>
+            <a href="#"><img src="img/partner_11.png" alt="동광제약 로고"></a>
+            <a href="#"><img src="img/partner_12.png" alt="파나소닉 로고"></a>
+            <a href="#"><img src="img/partner_13.png" alt="더함 로고"></a>
+            <a href="#"><img src="img/partner_14.png" alt="인터파크 로고"></a>
+            <a href="#"><img src="img/partner_15.png" alt="하이트진로 로고"></a>
+            <a href="#"><img src="img/partner_16.png" alt="동서식품 로고"></a>
+            <a href="#"><img src="img/partner_17.png" alt="hk이노엔 로고"></a>
+            <a href="#"><img src="img/partner_18.png" alt="백조씽크 로고"></a>
+            <a href="#"><img src="img/partner_19.png" alt="새마을금고중앙회 로고"></a>
+            <a href="#"><img src="img/partner_20.png" alt="서민금융진흥원 로고"></a>
+            <a href="#"><img src="img/partner_21.png" alt="한국토지주택공사 로고"></a>
+            <a href="#"><img src="img/partner_22.png" alt="노블레스상조 로고"></a>
+            <a href="#"><img src="img/partner_23.png" alt="노블레스타워 로고"></a>
+            <a href="#"><img src="img/partner_24.png" alt="육성푸드(주) 로고"></a>
+            <a href="#"><img src="img/partner_25.png" alt="유한양행 로고"></a>
+            <a href="#"><img src="img/partner_26.png" alt="gs안과 로고"></a>
+            <a href="#"><img src="img/partner_27.png" alt="현대약품 로고"></a>
+            <a href="#"><img src="img/partner_28.png" alt="프리미어모터스 로고"></a>
+            <a href="#"><img src="img/partner_29.png" alt="덴티스테 로고"></a>
+            <a href="#"><img src="img/partner_30.png" alt="대방건설 로고"></a>
+            <a href="#"><img src="img/partner_31.png" alt="해태제과 로고"></a>
+            <a href="#"><img src="img/partner_32.png" alt="김안과병원 로고"></a>
+            <a href="#"><img src="img/partner_33.png" alt="마왕족발 로고"></a>
+            <a href="#"><img src="img/partner_34.png" alt="고양시청 로고"></a>
+            <a href="#"><img src="img/partner_35.png" alt="하나로의료재단 로고"></a>
+            <a href="#"><img src="img/partner_36.png" alt="풀무원샘물 로고"></a>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <footer>
+        <div id="footer">
+            <div class="f_top">
+                <div class="f_logo">
+                    <img src="img/kiwoom_logo.png" alt="키움 히어로즈 푸터 로고">
+                </div>
+                <div class="f_nav">
+                    <ul>
+                        <li>heroes</li>
+                        <li><a href="#">구단 소개</a></li>
+                        <li><a href="#">구단 bi</a></li>
+                        <li><a href="#">구단 파트너</a></li>
+                        <li><a href="#">구장 안내</a></li>
+                    </ul>
+                    <ul>
+                        <li>players</li>
+                        <li><a href="#">코칭 스탭</a></li>
+                        <li><a href="#">투수</a></li>
+                        <li><a href="#">포수</a></li>
+                        <li><a href="#">내야수</a></li>
+                        <li><a href="#">외야수</a></li>
+                        <li><a href="#">신인선수</a></li>
+                        <li><a href="#">군입대선수</a></li>
+                    </ul>
+                    <ul>
+                        <li>games</li>
+                        <li><a href="#">경기일정 및 결과</a></li>
+                        <li><a href="#">팀순위</a></li>
+                        <li><a href="#">투수성적</a></li>
+                        <li><a href="#">타자성적</a></li>
+                        <li><a href="#">전체투수</a></li>
+                        <li><a href="#">전체타자</a></li>
+                        <li><a href="#">선수 등록 현황</a></li>
+                    </ul>
+                    <ul>
+                        <li>media</li>
+                        <li><a href="#">구단 소식</a></li>
+                        <li><a href="#">video</a></li>
+                        <li><a href="#">photos</a></li>
+                    </ul>
+                    <ul>
+                        <li>fans</li>
+                        <li><a href="#">영웅 게시판</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">응원단</a></li>
+                        <li><a href="#">faq</a></li>
+                    </ul>
+                    <ul>
+                        <li>ticket</li>
+                        <li><a href="#">일일 티켓</a></li>
+                        <li><a href="#">8경기 티켓</a></li>
+                        <li><a href="#">연간 회원</a></li>
+                        <li><a href="#">멤버십</a></li>
+                        <li><a href="#">단체 관람</a></li>
+                        <li><a href="#">스카이박스</a></li>
+                        <li><a href="#">고양 히어로즈 티켓</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f_bot">
+                <div class="f_left">
+                    <div>
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">이용약관</a>
+                        <a href="#">이메일무단수집거부</a>
+                        <a href="#">안내 및 q&a</a>
+                        <a href="#">사이트맵</a>
+                    </div>
+                    <p>서울특별시 구로구 경인로 430(고척동, 고척스카이돔구장내) T.02-3660-1000 F.02-3660-1099
+                        <br>Copyright (C) Heroes, All Rights Reserved.
+                    </p>
+                </div>
+                <div class="f_right">
+                    <a href="#"><img src="img/footer_youtube.png" alt="유튜브 바로가기 아이콘"></a>
+                    <a href="#"><img src="img/footer_instagr.png" alt="인스타그램 바로가기 아이콘"></a>
+                    <a href="#"><img src="img/footer_facebook.png" alt="페이스북 바로가기 아이콘"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

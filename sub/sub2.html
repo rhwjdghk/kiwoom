@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIWOOM</title>
+    <link rel="shortcut icon" href="img/fivicon.ico.ico">
+    <link rel="stylesheet" href="../css/sub2_style.css">
+    <link rel="stylesheet" href="../css/sub2ban_style.css">
+    <script src="https://kit.fontawesome.com/a3379ca11a.js" crossorigin="anonymous"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="../js/sub2_js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div id="header">
+            <h1 class="logo">
+                <a href="../index.html">
+                    <img src="../img/kiwoom_logo.png" alt="키움히어로즈 로고">
+                </a>
+            </h1>
+            <div class="header_nav">
+                <ul class="gnb">
+                    <li class="m"><a href="sub1.html">heroes</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="sub1.html">히어로즈</a></li>
+                            <li><a href="#">BI</a></li>
+                            <li><a href="#">구단 파트너</a></li>
+                            <li><a href="#">구장 안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="m"><a href="sub2.html">players</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="sub2.html">코칭 스탭</a></li>
+                            <li><a href="#">투수</a></li>
+                            <li><a href="#">포수</a></li>
+                            <li><a href="#">내야수</a></li>
+                            <li><a href="#">외야수</a></li>
+                            <li><a href="#">신인선수</a></li>
+                            <li><a href="#">군입대선수</a></li>
+                        </ul>
+                    </li>
+                    <li class="m"><a href="#">games</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="#">경기일정 및 결과</a></li>
+                            <li><a href="#">팀순위</a></li>
+                            <li><a href="#">투수성적</a></li>
+                            <li><a href="#">타자성적</a></li>
+                            <li><a href="#">전체투수</a></li>
+                            <li><a href="#">전체 타자</a></li>
+                            <li><a href="#">선수 등록 현황</a></li>
+                        </ul>
+                    </li>
+                    <li class="m"><a href="#">media</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="#">구단 소식</a></li>
+                            <li><a href="#">video</a></li>
+                            <li><a href="#">photos</a></li>
+                        </ul>
+                    </li>
+                    <li class="m"><a href="#">fans</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="#">영웅 게시판</a></li>
+                            <li><a href="#">shop</a></li>
+                            <li><a href="#">응원단</a></li>
+                            <li><a href="#">faq</a></li>
+                        </ul>
+                    </li>
+                    <li class="m"><a href="#">ticket</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="#">일일 티켓</a></li>
+                            <li><a href="#">8경기 티켓</a></li>
+                            <li><a href="#">연간 회원</a></li>
+                            <li><a href="#">멤버십</a></li>
+                            <li><a href="#">단체 관람</a></li>
+                            <li><a href="#">스카이박스</a></li>
+                            <li><a href="#">고양히어로즈 티켓</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_right">
+                <div class="btn">
+                    <a href="#">
+                        <i class="fa-regular fa-user"></i>
+                    </a>
+                </div>
+                <div class="language">
+                    <a href="#">
+                        <i class="fas fa-regular fa-chevron-down"></i>
+                        kor
+                    </a>
+                    <a href="#">eng</a>
+                </div>
+            </div>
+        </div>
+        <div class="header_bg"></div>
+    </header>
+
+    <!-- 햄바그 -->
+    <div class="ham">
+        <div>
+            <span class="rotate"></span>
+            <span class="none"></span>
+            <span class="rotate"></span>
+        </div>
+    </div>
+
+    <!-- 모바일 nav -->
+    <div id="mobilnav">
+        <div class="mnav_wrap">
+            <div class="mnav_log">
+                로그인 / 회원가입
+            </div>
+            <ul class="mnav_main">
+                <li>herose <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="sub1.html">히어로즈 소개</a></li>
+                        <li><a href="#">구단 bi</a></li>
+                        <li><a href="#">구단 파트너</a></li>
+                        <li><a href="#">구장 안내</a></li>
+                    </ul>
+                </li>
+                <li>
+                    players <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="sub2.html">코칭 스탭</a></li>
+                        <li><a href="#">투수</a></li>
+                        <li><a href="#">포수</a></li>
+                        <li><a href="#">내야수</a></li>
+                        <li><a href="#">외야수</a></li>
+                        <li><a href="#">신인선수</a></li>
+                        <li><a href="#">군입대선수</a></li>
+                    </ul>
+                </li>
+                <li>
+                    games <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="#">경기일정 및 결과</a></li>
+                        <li><a href="#">팀순위</a></li>
+                        <li><a href="#">투수성적</a></li>
+                        <li><a href="#">타자성적</a></li>
+                        <li><a href="#">전체투수</a></li>
+                        <li><a href="#">전체타자</a></li>
+                        <li><a href="#">선수 등록 현황</a></li>
+                    </ul>
+                </li>
+                <li>
+                    media <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="#">구단 소식</a></li>
+                        <li><a href="#">video</a></li>
+                        <li><a href="#">photos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    fans <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="#">영웅 게시판</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">응원단</a></li>
+                        <li><a href="#">faq</a></li>
+                    </ul>
+                </li>
+                <li>
+                    ticket <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="#">일일 티켓</a></li>
+                        <li><a href="#">8경기 티켓</a></li>
+                        <li><a href="#">연간 회원</a></li>
+                        <li><a href="#">맴버십</a></li>
+                        <li><a href="#">단체 관람</a></li>
+                        <li><a href="#">스카이박스</a></li>
+                        <li><a href="#">고양 히어로즈 티켓</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+     <!-- 소개 배너 + 네비 -->
+     <div id="topbanner">
+        <div class="ban_title">
+            <span class="bt_move">players</span>
+            <p class="bt_move">선수단</p>
+        </div>
+    </div>
+
+    <!-- 메인화면 -->
+    <div id="main">
+        <div id="main_gnb">
+            <ul>
+                <li><a href="#">코칭스탭</a></li>
+                <li><a href="#">투수</a></li>
+                <li><a href="#">포수</a></li>
+                <li><a href="#">내야수</a></li>
+                <li><a href="#">외야수</a></li>
+                <li><a href="#">신인선수</a></li>
+                <li><a href="#">군입대선수</a></li>
+            </ul>
+        </div>
+
+        <!-- 1군 코칭스탭 -->
+        <section class="profil">
+            <h2>1군</h2>
+            <div class="pf_content">
+                <div class="pf_con">
+                    <div class="text">
+                        <span>감독</span>
+                        <p>홍원기</p>
+                        <div class="num">
+                            <img src="../img/홍원기.png" alt="홍원기감독 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/111.png" alt="홍원기감독 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>수석코치</span>
+                        <p>김창현</p>
+                        <div class="num">
+                            <img src="../img/김창현.png" alt="김창현 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/222.png" alt="김창현 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>투수코치</span>
+                        <p>노병오</p>
+                        <div class="num">
+                            <img src="../img/노병오.png" alt="노병오 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/333.png" alt="노병오 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>불펜코치</span>
+                        <p>마정길</p>
+                        <div class="num">
+                            <img src="../img/마정길.png" alt="마정길 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/444.png" alt="마정길 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>배터리코치</span>
+                        <p>박도현</p>
+                        <div class="num">
+                            <img src="../img/박도현.png" alt="박도현 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/555.png" alt="박도현 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>타격코치</span>
+                        <p>오윤</p>
+                        <div class="num">
+                            <img src="../img/오윤.png" alt="오윤 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/666.png" alt="오윤 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>수비코치</span>
+                        <p>채종국</p>
+                        <div class="num">
+                            <img src="../img/채종국.png" alt="채종국 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/777.png" alt="채종국 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>작전/주루코치</span>
+                        <p>박재상</p>
+                        <div class="num">
+                            <img src="../img/박재상.png" alt="박재상 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/888.png" alt="박재상 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>1루/외야코치</span>
+                        <p>김지수</p>
+                        <div class="num">
+                            <img src="../img/김지수.png" alt="김지수 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/999.png" alt="김지수 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+            </div>
+        </section>
+
+        <!-- 2군 코칭스탭 -->
+        <section class="profil">
+            <h2>2군</h2>
+            <div class="pf_content">
+                <div class="pf_con">
+                    <div class="text">
+                        <span>2군 감독</span>
+                        <p>설종진</p>
+                        <div class="num">
+                            <img src="../img/설종진.png" alt="설종진 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/1010.png" alt="설종진 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>수석코치</span>
+                        <p>강병식</p>
+                        <div class="num">
+                            <img src="../img/강병식.png" alt="강병식 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/1111.png" alt="강병식 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>2군 투수코치</span>
+                        <p>송신영</p>
+                        <div class="num">
+                            <img src="../img/송신영.png" alt="송신영 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/1212.png" alt="송신영 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>2군 배터리코치</span>
+                        <p>김동우</p>
+                        <div class="num">
+                            <img src="../img/김동우.png" alt="김동우 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/1313.png" alt="김동우 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>2군 타격코치</span>
+                        <p>김태완</p>
+                        <div class="num">
+                            <img src="../img/김태완.png" alt="김태완 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/1414.png" alt="김태완 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>2군 내야수비코치</span>
+                        <p>권도영</p>
+                        <div class="num">
+                            <img src="../img/권도영.png" alt="권도영 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/1515.png" alt="권도영 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>2군 작전/주루코치</span>
+                        <p>박정음</p>
+                        <div class="num">
+                            <img src="../img/박정음.png" alt="박정음 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/1616.png" alt="박정음 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>2군 재활,잔류군 투수코치</span>
+                        <p>이승호</p>
+                        <div class="num">
+                            <img src="../img/이승호.png" alt="이승호 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/1717.png" alt="이승호 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+                <div class="pf_con">
+                    <div class="text">
+                        <span>2군 재활,잔류군 야수코치</span>
+                        <p>문찬종</p>
+                        <div class="num">
+                            <img src="../img/문찬종.png" alt="문찬종 넘버">
+                        </div>
+                    </div>
+                    <img src="../img/1818.png" alt="문찬종 프로필">
+                    <img src="../img/profil_bg.jpg" alt="프로필 배경">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 상단으로 바로가기 버튼 -->
+    <button type="button" class="Topbnt">top</button>
+
+    <!-- 파트너 -->
+    <div id="partner">
+        <div class="move_pt">
+            <a href="#"><img src="../img/partner_1.png" alt="키움증권 로고"></a>
+            <a href="#"><img src="../img/partner_2.png" alt="sgc 로고"></a>
+            <a href="#"><img src="../img/partner_3.png" alt="바프 로고"></a>
+            <a href="#"><img src="../img/partner_4.png" alt="kb라이프생명 로고"></a>
+            <a href="#"><img src="../img/partner_5.png" alt="나이키 로고"></a>
+            <a href="#"><img src="../img/partner_6.png" alt="태안모터스 로고"></a>
+            <a href="#"><img src="../img/partner_7.png" alt="대원 로고"></a>
+            <a href="#"><img src="../img/partner_8.png" alt="사람인 로고"></a>
+            <a href="#"><img src="../img/partner_9.png" alt="휴온스 로고"></a>
+            <a href="#"><img src="../img/partner_10.png" alt="농심 로고"></a>
+            <a href="#"><img src="../img/partner_11.png" alt="동광제약 로고"></a>
+            <a href="#"><img src="../img/partner_12.png" alt="파나소닉 로고"></a>
+            <a href="#"><img src="../img/partner_13.png" alt="더함 로고"></a>
+            <a href="#"><img src="../img/partner_14.png" alt="인터파크 로고"></a>
+            <a href="#"><img src="../img/partner_15.png" alt="하이트진로 로고"></a>
+            <a href="#"><img src="../img/partner_16.png" alt="동서식품 로고"></a>
+            <a href="#"><img src="../img/partner_17.png" alt="hk이노엔 로고"></a>
+            <a href="#"><img src="../img/partner_18.png" alt="백조씽크 로고"></a>
+            <a href="#"><img src="../img/partner_19.png" alt="새마을금고중앙회 로고"></a>
+            <a href="#"><img src="../img/partner_20.png" alt="서민금융진흥원 로고"></a>
+            <a href="#"><img src="../img/partner_21.png" alt="한국토지주택공사 로고"></a>
+            <a href="#"><img src="../img/partner_22.png" alt="노블레스상조 로고"></a>
+            <a href="#"><img src="../img/partner_23.png" alt="노블레스타워 로고"></a>
+            <a href="#"><img src="../img/partner_24.png" alt="육성푸드(주) 로고"></a>
+            <a href="#"><img src="../img/partner_25.png" alt="유한양행 로고"></a>
+            <a href="#"><img src="../img/partner_26.png" alt="gs안과 로고"></a>
+            <a href="#"><img src="../img/partner_27.png" alt="현대약품 로고"></a>
+            <a href="#"><img src="../img/partner_28.png" alt="프리미어모터스 로고"></a>
+            <a href="#"><img src="../img/partner_29.png" alt="덴티스테 로고"></a>
+            <a href="#"><img src="../img/partner_30.png" alt="대방건설 로고"></a>
+            <a href="#"><img src="../img/partner_31.png" alt="해태제과 로고"></a>
+            <a href="#"><img src="../img/partner_32.png" alt="김안과병원 로고"></a>
+            <a href="#"><img src="../img/partner_33.png" alt="마왕족발 로고"></a>
+            <a href="#"><img src="../img/partner_34.png" alt="고양시청 로고"></a>
+            <a href="#"><img src="../img/partner_35.png" alt="하나로의료재단 로고"></a>
+            <a href="#"><img src="../img/partner_36.png" alt="풀무원샘물 로고"></a>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <footer>
+        <div id="footer">
+            <div class="f_top">
+                <div class="f_logo">
+                    <img src="../img/kiwoom_logo.png" alt="키움 히어로즈 푸터 로고">
+                </div>
+                <div class="f_nav">
+                    <ul>
+                        <li>heroes</li>
+                        <li><a href="#">구단 소개</a></li>
+                        <li><a href="#">구단 bi</a></li>
+                        <li><a href="#">구단 파트너</a></li>
+                        <li><a href="#">구장 안내</a></li>
+                    </ul>
+                    <ul>
+                        <li>players</li>
+                        <li><a href="#">코칭 스탭</a></li>
+                        <li><a href="#">투수</a></li>
+                        <li><a href="#">포수</a></li>
+                        <li><a href="#">내야수</a></li>
+                        <li><a href="#">외야수</a></li>
+                        <li><a href="#">신인선수</a></li>
+                        <li><a href="#">군입대선수</a></li>
+                    </ul>
+                    <ul>
+                        <li>games</li>
+                        <li><a href="#">경기일정 및 결과</a></li>
+                        <li><a href="#">팀순위</a></li>
+                        <li><a href="#">투수성적</a></li>
+                        <li><a href="#">타자성적</a></li>
+                        <li><a href="#">전체투수</a></li>
+                        <li><a href="#">전체타자</a></li>
+                        <li><a href="#">선수 등록 현황</a></li>
+                    </ul>
+                    <ul>
+                        <li>media</li>
+                        <li><a href="#">구단 소식</a></li>
+                        <li><a href="#">video</a></li>
+                        <li><a href="#">photos</a></li>
+                    </ul>
+                    <ul>
+                        <li>fans</li>
+                        <li><a href="#">영웅 게시판</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">응원단</a></li>
+                        <li><a href="#">faq</a></li>
+                    </ul>
+                    <ul>
+                        <li>ticket</li>
+                        <li><a href="#">일일 티켓</a></li>
+                        <li><a href="#">8경기 티켓</a></li>
+                        <li><a href="#">연간 회원</a></li>
+                        <li><a href="#">멤버십</a></li>
+                        <li><a href="#">단체 관람</a></li>
+                        <li><a href="#">스카이박스</a></li>
+                        <li><a href="#">고양 히어로즈 티켓</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f_bot">
+                <div class="f_left">
+                    <div>
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">이용약관</a>
+                        <a href="#">이메일무단수집거부</a>
+                        <a href="#">안내 및 q&a</a>
+                        <a href="#">사이트맵</a>
+                    </div>
+                    <p>서울특별시 구로구 경인로 430(고척동, 고척스카이돔구장내) T.02-3660-1000 F.02-3660-1099
+                        <br>Copyright (C) Heroes, All Rights Reserved.
+                    </p>
+                </div>
+                <div class="f_right">
+                    <a href="#"><img src="../img/footer_youtube.png" alt="유튜브 바로가기 아이콘"></a>
+                    <a href="#"><img src="../img/footer_instagr.png" alt="인스타그램 바로가기 아이콘"></a>
+                    <a href="#"><img src="../img/footer_facebook.png" alt="페이스북 바로가기 아이콘"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

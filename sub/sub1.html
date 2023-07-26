@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIWOOM</title>
+    <link rel="shortcut icon" href="img/fivicon.ico.ico">
+    <link rel="stylesheet" href="../css/sub1_style.css">
+    <link rel="stylesheet" href="../css/sub1ban_style.css">
+    <script src="https://kit.fontawesome.com/a3379ca11a.js" crossorigin="anonymous"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../js/sub1_js.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div id="header">
+            <h1 class="logo">
+                <a href="../index.html">
+                    <img src="../img/kiwoom_logo.png" alt="키움히어로즈 로고">
+                </a>
+            </h1>
+            <div class="header_nav">
+                <ul class="gnb">
+                    <li class="m"><a href="../sub/sub1.html">heroes</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="../sub/sub1.html">히어로즈</a></li>
+                            <li><a href="#">BI</a></li>
+                            <li><a href="#">구단 파트너</a></li>
+                            <li><a href="#">구장 안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="m"><a href="../sub/sub2.html">players</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="../sub/sub2.html">코칭 스탭</a></li>
+                            <li><a href="#">투수</a></li>
+                            <li><a href="#">포수</a></li>
+                            <li><a href="#">내야수</a></li>
+                            <li><a href="#">외야수</a></li>
+                            <li><a href="#">신인선수</a></li>
+                            <li><a href="#">군입대선수</a></li>
+                        </ul>
+                    </li>
+                    <li class="m"><a href="#">games</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="#">경기일정 및 결과</a></li>
+                            <li><a href="#">팀순위</a></li>
+                            <li><a href="#">투수성적</a></li>
+                            <li><a href="#">타자성적</a></li>
+                            <li><a href="#">전체투수</a></li>
+                            <li><a href="#">전체 타자</a></li>
+                            <li><a href="#">선수 등록 현황</a></li>
+                        </ul>
+                    </li>
+                    <li  class="m"><a href="#">media</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="#">구단 소식</a></li>
+                            <li><a href="#">video</a></li>
+                            <li><a href="#">photos</a></li>
+                        </ul>
+                    </li>
+                    <li class="m"><a href="#">fans</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="#">영웅 게시판</a></li>
+                            <li><a href="#">shop</a></li>
+                            <li><a href="#">응원단</a></li>
+                            <li><a href="#">faq</a></li>
+                        </ul>
+                    </li>
+                    <li class="m"><a href="#">ticket</a><span></span>
+                        <ul class="header_sub">
+                            <li><a href="#">일일 티켓</a></li>
+                            <li><a href="#">8경기 티켓</a></li>
+                            <li><a href="#">연간 회원</a></li>
+                            <li><a href="#">멤버십</a></li>
+                            <li><a href="#">단체 관람</a></li>
+                            <li><a href="#">스카이박스</a></li>
+                            <li><a href="#">고양히어로즈 티켓</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_right">
+                <div class="btn">
+                    <a href="#">
+                        <i class="fa-regular fa-user"></i>
+                    </a>
+                </div>
+                <div class="language">
+                    <a href="#">
+                        <i class="fas fa-regular fa-chevron-down"></i>
+                        kor
+                    </a>
+                    <a href="#">eng</a>
+                </div>
+            </div>
+        </div>
+        <div class="header_bg"></div>
+    </header>
+
+    <!-- 햄바그 -->
+    <div class="ham">
+        <div>
+            <span class="rotate"></span>
+            <span class="none"></span>
+            <span class="rotate"></span>
+        </div>
+    </div>
+
+    <!-- 모바일 nav -->
+    <div id="mobilnav">
+        <div class="mnav_wrap">
+            <div class="mnav_log">
+                로그인 / 회원가입
+            </div>
+            <ul class="mnav_main">
+                <li>herose <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="sub1.html">히어로즈 소개</a></li>
+                        <li><a href="#">구단 bi</a></li>
+                        <li><a href="#">구단 파트너</a></li>
+                        <li><a href="#">구장 안내</a></li>
+                    </ul>
+                </li>
+                <li>
+                    players <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="sub2.html">코칭 스탭</a></li>
+                        <li><a href="#">투수</a></li>
+                        <li><a href="#">포수</a></li>
+                        <li><a href="#">내야수</a></li>
+                        <li><a href="#">외야수</a></li>
+                        <li><a href="#">신인선수</a></li>
+                        <li><a href="#">군입대선수</a></li>
+                    </ul>
+                </li>
+                <li>
+                    games <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="#">경기일정 및 결과</a></li>
+                        <li><a href="#">팀순위</a></li>
+                        <li><a href="#">투수성적</a></li>
+                        <li><a href="#">타자성적</a></li>
+                        <li><a href="#">전체투수</a></li>
+                        <li><a href="#">전체타자</a></li>
+                        <li><a href="#">선수 등록 현황</a></li>
+                    </ul>
+                </li>
+                <li>
+                    media <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="#">구단 소식</a></li>
+                        <li><a href="#">video</a></li>
+                        <li><a href="#">photos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    fans <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="#">영웅 게시판</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">응원단</a></li>
+                        <li><a href="#">faq</a></li>
+                    </ul>
+                </li>
+                <li>
+                    ticket <span></span>
+                    <ul class="mnav_sub">
+                        <li><a href="#">일일 티켓</a></li>
+                        <li><a href="#">8경기 티켓</a></li>
+                        <li><a href="#">연간 회원</a></li>
+                        <li><a href="#">맴버십</a></li>
+                        <li><a href="#">단체 관람</a></li>
+                        <li><a href="#">스카이박스</a></li>
+                        <li><a href="#">고양 히어로즈 티켓</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 소개 배너 + 네비 -->
+    <div id="topbanner">
+        <div class="ban_title">
+            <span class="bt_move">herose</span>
+            <p class="bt_move">구단 소개</p>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#">히어로즈</a></li>
+                <li><a href="#"> bi</a></li>
+                <li><a href="#">파트너</a></li>
+                <li><a href="#">구장 안내</a></li>
+            </ul>
+            <div class="moveline"></div>
+        </nav>
+    </div>
+
+    <!-- 메인 화면 -->
+    <div id="main">
+
+        <!-- 구단 인사말 -->
+        <section id="club_grt">
+            <div class="grt_title">
+                <h2>구단 인사말</h2>
+                <p>모두 함께하는 프로야구를 만들어 갑니다.</p>
+            </div>
+            <div class="grt_img"></div>
+            <div class="grt_text">
+                <p>팬 여러분의 변함없는 응원과 함께 성장해 가고 있는 히어로즈 프로 야구단입니다.</p>
+                <span>
+                    2008년 서울을 연고로 창단한 히어로즈 프로야구단은 언제나 팬 여러분과 함께였습니다.<br>
+                    변함없는 열정으로 응원해 주시는 팬 여러분이 계시기에 히어로즈 프로야구단은 매 시즌 조금씩 높은 곳을 바라볼 수 있었습니다. 
+                </span>
+                <p>최선을 다하는 플레이로 보답하겠습니다.</p>
+                <span>
+                    그 동안 우승을 위해 흘렸던 땀과 눈물을 잊지 않겠습니다.<br>
+                    매 시즌, 조금 더높은 곳에서 팬 여러분과 함께 기쁨의 눈물을 흘릴 수 있도록 저희 선수단과 임직원 모두는 최선을 다하겠습니다.
+                </span>
+                <span>변함없는 응원에 항상 감사합니다.</span>
+            </div>
+        </section>
+
+        <!-- 히어로즈 기록 -->
+        <section id="club_hty">
+            <h2>히어로즈 기록</h2>
+            <p>히어로즈의 추억과 영광을 함께 해주세요.</p>
+
+            <!-- 기록 버튼 -->
+            <div class="hty_button">
+                <div class="hty_Mbtn">
+                    <span></span>
+                    <p>2022 서울히어로즈 프로야구단</p>
+                </div>
+                <div class="hty_Sbtn">
+                    <ul>
+                        <li><a href="#">2022 서울히어로즈 프로야구단</a></li>
+                        <li><a href="#">2021 서울히어로즈 프로야구단</a></li>
+                        <li><a href="#">2020 서울히어로즈 프로야구단</a></li>
+                        <li><a href="#">2019 서울히어로즈 프로야구단</a></li>
+                        <li><a href="#">2018 서울히어로즈 프로야구단</a></li>
+                        <li><a href="#">2017 서울히어로즈 프로야구단</a></li>
+                        <li><a href="#">2016 서울히어로즈 프로야구단</a></li>
+                        <li><a href="#">2015 서울히어로즈 프로야구단</a></li>
+                        <li><a href="#">2014 서울히어로즈 프로야구단</a></li>
+                        <li><a href="#">2013 서울히어로즈 프로야구단</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 기록들 -->
+            <div class="hty_content">
+                <div class="hty_con">
+                    <div class="hty_img">
+                        <img src="../img/history1.jpeg" alt="기록1 사진">
+                    </div>
+                    <div class="hty_text">
+                        <p>이용규 2,000안타 / 통산 15번째</p>
+                        <span>2022년 4월 19일, SSG랜더스와의 원정 경기에서 이용규 선수가 1번타자로 선발 출전해 9회초 2루타를 기록하며 KBO리그 역대 15번째 개인 통산 2,000안타를 달성했습니다.</span>
+                    </div>
+                </div>
+                <div class="hty_con">
+                    <div class="hty_img">
+                        <img src="../img/history2.jpeg" alt="기록2 사진">
+                    </div>
+                    <div class="hty_text">
+                        <p>김혜성 5년 연속 20도루 / 통산 13번째</p>
+                        <span>2022년 6월 8일, 고척에서 열린 KT와 홈경기에서 김혜성 선수가 2회말 2사 2루 도루에 성공하며 KBO리그 역대 13번째 5년 연속 20도루를 기록했습니다.</span>
+                    </div>
+                </div>
+                <div class="hty_con">
+                    <div class="hty_img">
+                        <img src="../img/history3.jpg" alt="기록3 사진">
+                    </div>
+                    <div class="hty_text">
+                        <p>이정후 최연소·최소 경기 1,000안타</p>
+                        <span>2022년 7월 8일, 수원에서 열린 KT와의 원정 경기에서 개인 통산 1,000안타를 때려내며 만 23세 11개월 8일의 나이로 747경기 만에 역대 최연소·최소 경기 1,000안타 신기록을 세웠습니다. 아버지 이종범의 779경기보다 32경기 적고, 종전 최연소 기록인 ‘구민타자’ 이승엽(25세 8개월 9일)의 기록을 약 1년 9개월가량 앞당겼습니다.</span>
+                    </div>
+                </div>
+                <div class="hty_con">
+                    <div class="hty_img">
+                        <img src="../img/history4.jpg" alt="기록4 사진">
+                    </div>
+                    <div class="hty_text">
+                        <p>이정후 6년 연속 150안타 / 통산 4번째</p>
+                        <span>이정후 선수는 2022년 8월 30일 롯데와의 고척 경기 5회말 2사 만루에서 주자 2명을 불러들이는 우익수 앞 적시를 날렸습니다. 6년 연속 150안타는 역대 네 번째 기록이지만 데뷔 시즌부터 6년간 150안타를 기록한 건 이정후 선수가 처음입니다.</span>
+                    </div>
+                </div>
+                <div class="hty_con">
+                    <div class="hty_img">
+                        <img src="../img/history5.jpeg" alt="기록5 사진">
+                    </div>
+                    <div class="hty_text">
+                        <p>안우진 10승-200탈삼진 / 통산 14번째</p>
+                        <span>안우진 선수가 2022년 9월 18일 고척 NC전에 선발투수로 출전해 2회초 노진혁 선수를 삼진으로 잡아내며 10승-200탈삼진(KBO리그 역대 14번째) 기록을 달성 했습니다. 10승-200삼진을 동시 달성한 한국인 투수는 2006년 한화 류현진 이후 무려 16년만입니다.</span>
+                    </div>
+                </div>
+                <div class="hty_con">
+                    <div class="hty_img">
+                        <img src="../img/history6.jpg" alt="기록6 사진">
+                    </div>
+                    <div class="hty_text">
+                        <p>키움히어로즈, 3년 만에 한국시리즈 진출</p>
+                        <span>키움히어로즈가 5년 연속이자 창단 9번째로 포스트시즌에 진출 했습니다. 시즌 전 리그 최하위 후보로도 거론됐지만 이러한 평가를 뒤집고 한국시리즈 진출이라는 쾌거를 거뒀습니다. 키움히어로즈는 2019년 이후 3년 만에 한국시리즈에 진출해 첫 우승에 도전했지만 SSG에 시리즈 전적 2승 4패로 준우승에 머물렀습니다.</span>
+                    </div>
+                </div>
+                <div class="hty_con">
+                    <div class="hty_img">
+                        <img src="../img/history7.jpg" alt="기록7 사진">
+                    </div>
+                    <div class="hty_text">
+                        <p>2022시즌 MVP, 타율, 안타, 타점, 출루율, 장타율 1위 이정후 / 평균자책점, 탈삼진 1위 안우진</p>
+                        <span>이정후 선수가 타격 부문 5관왕에 오르며 KBO리그 MVP를 수상 했습니다. 키움히어로즈는 박병호 (2012·2013년)와 서건창(2014년) 이후 오랜만에 MVP를 배출했습니다. 이정후 선수는 2022시즌 142경기에 출장해 타율 0.349, 안타 193, 홈런 23, 타점 113, 득점 85, 출루율 0.421, 장타율 0.575의 대단한 성적을 거뒀습니다. 타율, 안타, 타점, 출루율, 장타율 부문 1위에 오르며 타격 부문 5관왕을 차지한 이정후 선수는 ‘부자(父子) MVP’라는 기록과 함께 류현진, 서건창에 이어 세 번째로 신인왕과 MVP를 수상한 선수가 됐습니다.안우진 선수는 평균자책점, 탈삼진상을 수상하며 투수 2관왕에 올랐습니다. 이번 시즌 30경기에 출전해 시즌 최다인 196이닝을 소화하며 15승 8패, 평균자책점 2.11(1위), 224탈삼진(1위)을 기록 했습니다. 탈삼진 부문에선 역대 KBO리그 한국인 투수 한 시즌 최다 기록을 새로 썼습니다.</span>
+                    </div>
+                </div>
+                <div class="hty_con">
+                    <div class="hty_img">
+                        <img src="../img/history8.jpg" alt="기록8 사진">
+                    </div>
+                    <div class="hty_text">
+                        <p>투수 원종현 4년 총액 25억원 FA 계약</p>
+                        <span>키움히어로즈는 11월 19일 투수 원종현과 계약기간 4년, 계약금 5억원, 연봉 5억원 등 총액 25억원에 FA 계약을 체결했습니다. 원종현 선수는 통산 8시즌 동안 501경기에 나서 27승 28패 86홀드 82세이브 평균자책점 4.02를 기록했습니다. 2019시즌과 2020시즌에는 2년 연속 30세이브를 올리며 마무리투수로 활약했으며 2017년 WBC, 2019 WBSC 프리미어12 대표팀에 발탁돼 태극 마크를 달기도 했습니다.</span>
+                    </div>
+                </div>
+                <div class="hty_con">
+                    <div class="hty_img">
+                        <img src="../img/history9.jpg" alt="기록9 사진">
+                    </div>
+                    <div class="hty_text">
+                        <p>외야수 이형종 4년 총액 20억원 FA 계약</p>
+                        <span>키움히어로즈는 11월 24일 퓨처스FA 외야수 이형종과 계약기간 4년, 총액 20억원에 계약했습니다. 이형종 선수는 2015시즌 타자로 전향한 뒤 2018시즌부터 2021시즌까지 4년 연속 두 자릿수 홈런을 칠 만큼 장타력을 갖춘 타자로 활약했습니다.타자로서 KBO리그 통산 624경기에 출전해 544안타 63홈런 254타점 타율 0.281를 기록했습니다.</span>
+                    </div>
+                </div>
+                <div class="hty_con">
+                    <div class="hty_img">
+                        <img src="../img/history10.jpg" alt="기록10 사진">
+                    </div>
+                    <div class="hty_text">
+                        <p>페어플레이상 이지영, 투수 부문 안우진, 2루수 부문 김혜성, 외야수 부문 이정후 골든글러브 수상</p>
+                        <span>'2022 골든글러브 시상식'에서 이지영, 안우진, 김혜성, 이정후 선수가 각각 페어플레이상, 투수, 2루수, 외야수 부문의 골든 글러브를 수상했습니다. 이지영 선수의 페어플레이상은 개인 첫 번째 수상이며, 키움히어로즈 선수로서는 2014년 손승락(당시 넥센) 이후 2번째입니다. 안우진 선수는 시속 160km에 육박하는 강속구를 앞세워 평균자책점과 탈삼진 부문 1위, 다승 공동 2위를 차지하며 생애 첫 골든글러브를 시상했습니다. 지난해 유격수 부문에서 골든글러브를 차지했던 김혜성 선수는 이번에는 2루수 부문 수상자가 되면서, KBO리그 최초로 유격수와 2루수 부문 골든 글러브를 수상한 선수가 됐습니다. 타격 5관왕과 함께 최우수 선수(MVP)까지 차지한 이정후 선수는 골든글러브까지 최고 득표율로 수상하며 화려하게 시즌을 마감했습니다. 2018년 이후 5년 연속 골든글러브 수상으로, 외야수 부문 최다 연속 수상 타이기록을 세웠습니다.</span>
+                    </div>
+                </div>
+                <div class="hty_con">
+                    <div class="hty_img">
+                        <img src="../img/history11.jpg" alt="기록11 사진">
+                    </div>
+                    <div class="hty_text">
+                        <p>홍원기 감독 재계약</p>
+                        <span>키움히어로즈는 2022시즌 팀을 KBO리그 준우승으로 이끈 홍원기 감독과 계약금 2억원, 연봉 4억원 등 3년 총액 14억원에 재계약 했습니다. 이는 지난 2014년 염경엽 전 감독이 재계약 당시 보장 받은 3년 총액 14억원과 동일한 구단 역사상 최대 규모 계약입니다. 홍원기 감독은 뛰어난 리더십과 통솔력을 바탕으로 팀을 안정적으로 운영 했으며 어려움 속에서도 선수단을 하나로 뭉치게 해 KS 준우승이란 성과를 만들어냈습니다. 홍원기 감독은 2025시즌까지 팀의 지휘봉을 잡습니다.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 상단으로 바로가기 버튼 -->
+            <div class="bnt">
+                <button type="button" class="Topbnt">top</button>   
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- 파트너 -->
+    <div id="partner">
+        <div class="move_pt">
+            <a href="#"><img src="../img/partner_1.png" alt="키움증권 로고"></a>
+            <a href="#"><img src="../img/partner_2.png" alt="sgc 로고"></a>
+            <a href="#"><img src="../img/partner_3.png" alt="바프 로고"></a>
+            <a href="#"><img src="../img/partner_4.png" alt="kb라이프생명 로고"></a>
+            <a href="#"><img src="../img/partner_5.png" alt="나이키 로고"></a>
+            <a href="#"><img src="../img/partner_6.png" alt="태안모터스 로고"></a>
+            <a href="#"><img src="../img/partner_7.png" alt="대원 로고"></a>
+            <a href="#"><img src="../img/partner_8.png" alt="사람인 로고"></a>
+            <a href="#"><img src="../img/partner_9.png" alt="휴온스 로고"></a>
+            <a href="#"><img src="../img/partner_10.png" alt="농심 로고"></a>
+            <a href="#"><img src="../img/partner_11.png" alt="동광제약 로고"></a>
+            <a href="#"><img src="../img/partner_12.png" alt="파나소닉 로고"></a>
+            <a href="#"><img src="../img/partner_13.png" alt="더함 로고"></a>
+            <a href="#"><img src="../img/partner_14.png" alt="인터파크 로고"></a>
+            <a href="#"><img src="../img/partner_15.png" alt="하이트진로 로고"></a>
+            <a href="#"><img src="../img/partner_16.png" alt="동서식품 로고"></a>
+            <a href="#"><img src="../img/partner_17.png" alt="hk이노엔 로고"></a>
+            <a href="#"><img src="../img/partner_18.png" alt="백조씽크 로고"></a>
+            <a href="#"><img src="../img/partner_19.png" alt="새마을금고중앙회 로고"></a>
+            <a href="#"><img src="../img/partner_20.png" alt="서민금융진흥원 로고"></a>
+            <a href="#"><img src="../img/partner_21.png" alt="한국토지주택공사 로고"></a>
+            <a href="#"><img src="../img/partner_22.png" alt="노블레스상조 로고"></a>
+            <a href="#"><img src="../img/partner_23.png" alt="노블레스타워 로고"></a>
+            <a href="#"><img src="../img/partner_24.png" alt="육성푸드(주) 로고"></a>
+            <a href="#"><img src="../img/partner_25.png" alt="유한양행 로고"></a>
+            <a href="#"><img src="../img/partner_26.png" alt="gs안과 로고"></a>
+            <a href="#"><img src="../img/partner_27.png" alt="현대약품 로고"></a>
+            <a href="#"><img src="../img/partner_28.png" alt="프리미어모터스 로고"></a>
+            <a href="#"><img src="../img/partner_29.png" alt="덴티스테 로고"></a>
+            <a href="#"><img src="../img/partner_30.png" alt="대방건설 로고"></a>
+            <a href="#"><img src="../img/partner_31.png" alt="해태제과 로고"></a>
+            <a href="#"><img src="../img/partner_32.png" alt="김안과병원 로고"></a>
+            <a href="#"><img src="../img/partner_33.png" alt="마왕족발 로고"></a>
+            <a href="#"><img src="../img/partner_34.png" alt="고양시청 로고"></a>
+            <a href="#"><img src="../img/partner_35.png" alt="하나로의료재단 로고"></a>
+            <a href="#"><img src="../img/partner_36.png" alt="풀무원샘물 로고"></a>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <footer>
+        <div id="footer">
+            <div class="f_top">
+                <div class="f_logo">
+                    <img src="../img/kiwoom_logo.png" alt="키움 히어로즈 푸터 로고">
+                </div>
+                <div class="f_nav">
+                    <ul>
+                        <li>heroes</li>
+                        <li><a href="#">구단 소개</a></li>
+                        <li><a href="#">구단 bi</a></li>
+                        <li><a href="#">구단 파트너</a></li>
+                        <li><a href="#">구장 안내</a></li>
+                    </ul>
+                    <ul>
+                        <li>players</li>
+                        <li><a href="#">코칭 스탭</a></li>
+                        <li><a href="#">투수</a></li>
+                        <li><a href="#">포수</a></li>
+                        <li><a href="#">내야수</a></li>
+                        <li><a href="#">외야수</a></li>
+                        <li><a href="#">신인선수</a></li>
+                        <li><a href="#">군입대선수</a></li>
+                    </ul>
+                    <ul>
+                        <li>games</li>
+                        <li><a href="#">경기일정 및 결과</a></li>
+                        <li><a href="#">팀순위</a></li>
+                        <li><a href="#">투수성적</a></li>
+                        <li><a href="#">타자성적</a></li>
+                        <li><a href="#">전체투수</a></li>
+                        <li><a href="#">전체타자</a></li>
+                        <li><a href="#">선수 등록 현황</a></li>
+                    </ul>
+                    <ul>
+                        <li>media</li>
+                        <li><a href="#">구단 소식</a></li>
+                        <li><a href="#">video</a></li>
+                        <li><a href="#">photos</a></li>
+                    </ul>
+                    <ul>
+                        <li>fans</li>
+                        <li><a href="#">영웅 게시판</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">응원단</a></li>
+                        <li><a href="#">faq</a></li>
+                    </ul>
+                    <ul>
+                        <li>ticket</li>
+                        <li><a href="#">일일 티켓</a></li>
+                        <li><a href="#">8경기 티켓</a></li>
+                        <li><a href="#">연간 회원</a></li>
+                        <li><a href="#">멤버십</a></li>
+                        <li><a href="#">단체 관람</a></li>
+                        <li><a href="#">스카이박스</a></li>
+                        <li><a href="#">고양 히어로즈 티켓</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f_bot">
+                <div class="f_left">
+                    <div>
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">이용약관</a>
+                        <a href="#">이메일무단수집거부</a>
+                        <a href="#">안내 및 q&a</a>
+                        <a href="#">사이트맵</a>
+                    </div>
+                    <p>서울특별시 구로구 경인로 430(고척동, 고척스카이돔구장내) T.02-3660-1000 F.02-3660-1099
+                        <br>Copyright (C) Heroes, All Rights Reserved.
+                    </p>
+                </div>
+                <div class="f_right">
+                    <a href="#"><img src="../img/footer_youtube.png" alt="유튜브 바로가기 아이콘"></a>
+                    <a href="#"><img src="../img/footer_instagr.png" alt="인스타그램 바로가기 아이콘"></a>
+                    <a href="#"><img src="../img/footer_facebook.png" alt="페이스북 바로가기 아이콘"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

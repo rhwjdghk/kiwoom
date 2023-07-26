@@ -1,0 +1,995 @@
+@media screen and (max-width:1620px) {
+    #topbanner #nav {
+        width:56%;
+        left:23%;
+        height:55px;
+    }
+    #main #club_hty .hty_content {
+        width:58%;
+    }
+}
+@media screen and (max-width:1457px) {
+
+    #topbanner .ban_title {
+        font-size:18px;
+    }
+    #topbanner #nav {
+        height:50px;
+        font-size:20px;
+    }
+    #main #club_grt .grt_img {
+        height:300px;
+    }
+    #main #club_grt .grt_text {
+        font-size:17px; 
+    }
+     
+    footer {
+        font-size:14px;
+    }
+    #footer .f_top .f_nav ul {
+        padding-left:4em;
+    }
+
+}
+@media screen and (max-width:1300px) {
+    #topbanner {
+        height:480px;
+    }
+    footer {
+        font-size:13px;
+    }
+    #footer .f_top .f_nav ul {
+        padding-left:3em;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+
+    /* header */
+    header {
+        font-size:13px;
+        height:44vh;
+    }
+    #header {
+        height:9vh;
+    }
+    .header_bg::after {
+        top:9vh;
+    }
+    .header_nav .gnb>li {
+        padding-right:3em;
+        width:5%;
+    }
+    .header_nav .gnb>li>a {
+        line-height:10vh;
+    }
+    .header_nav .header_sub {
+        position:absolute;
+        left:0;
+        top:70px;
+    }
+    .header_right {
+        height:9vh;
+    }
+
+
+    /* 배너 */
+    #topbanner {
+        height:400px;
+    }
+    #topbanner .ban_title {
+        font-size:14px;
+    }
+    #topbanner #nav {
+        width:64%;
+        left:18%;
+        height:45px;
+        font-size:19px;
+    }
+    #topbanner #nav .moveline {
+        left:4%;
+    }
+
+    /* section */
+    section h2 {
+        font-size:40px;
+    }
+
+    /* 구단 인사말 */
+    #main #club_grt .grt_img {
+        height:250px;
+    }
+    #main #club_grt .grt_text {
+        font-size:15px; 
+    }
+
+    /* 히어로즈 기록 */
+    #main #club_hty .hty_button {
+        width:40%;
+        height:640px;
+        left:30%;
+        top:200px;
+        font-size:19px;
+    }
+    #main #club_hty .hty_button .hty_Mbtn {
+        padding:16px 0;
+    }
+    #main #club_hty .hty_button .hty_Mbtn span  {
+        top:24px;
+    }
+    #main #club_hty .hty_button .hty_Sbtn ul li {
+        padding:16px 0;
+    }
+    #main #club_hty .hty_content {
+        transform:translateY(140px);
+    }
+
+    /* 기록 */
+    #main #club_hty .hty_content .hty_con .hty_img {
+        height:250px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_text {
+        font-size:17px;
+    }
+
+    /* 상단 바로가기 */
+    .bnt {
+        font-size:15px;
+    }
+    .Topbnt {
+        width:60px;
+        height:60px;
+    }
+
+    /* 파트너 */
+    #partner {
+        height:80px;
+    }
+    #partner .move_pt a {
+        margin-right:2em;
+    }
+
+    /* 푸터 */
+    footer {
+        font-size:13px;
+    }
+    #footer .f_bot .f_right a {
+        height:30px;
+    }
+
+}
+
+@media screen and (max-width:1023px) and (min-width:767px) {
+
+    /* 헤더 */
+    header {
+        font-size:11px;
+        height:37vh;
+    }
+    #header {
+        height:8vh;
+    }
+    .header_bg::after {
+        top:8vh;
+    }
+    .header_nav .gnb>li>a {
+        line-height:9vh;
+    }
+    .header_nav .gnb .m span {
+        height:2px;
+    }
+    .header_nav .header_sub {
+        position:absolute;
+        left:0;
+        top:60px;
+    }
+    .header_right {
+        height:8vh;
+    }
+    .header_nav .gnb>li {
+        padding-right:2em;
+    }
+    .header_sub>li>a {
+        padding-bottom:15px;
+    }
+
+    /* 배너 */
+    #topbanner {
+        height:350px;
+    }
+    #topbanner .ban_title {
+        font-size:12px;
+    }
+    #topbanner #nav {
+        width:70%;
+        left:15%;
+        height:40px;
+        font-size:17px;
+    }
+
+    /* section */
+    section h2 {
+        font-size:38px;
+    }
+    #main #club_grt .grt_title p, #main #club_hty>p {
+        font-size:15px;
+    }
+
+    /* 구단 인사말 */
+    #main #club_grt {
+        margin:160px 0 100px;
+    }
+    #main #club_hty {
+        padding:100px 0 0;
+    }
+    #main #club_grt .grt_img {
+        width:100%;
+        height:250px;
+        border-radius:0;
+    }
+    #main #club_grt .grt_text {
+        font-size:14px; 
+    }
+
+    /* 히어로즈 기록 */
+    #main #club_hty .hty_button {
+        width:42%;
+        height:565px;
+        left:29%;
+        top:150px;
+        font-size:16px;
+    }
+    #main #club_hty .hty_button .hty_Mbtn {
+        padding:14px 0;
+    }
+    #main #club_hty .hty_button .hty_Sbtn ul li {
+        padding:14px 0;
+    }
+    #main #club_hty .hty_button .hty_Mbtn span  {
+        top:20px;
+    }
+    #main #club_hty .hty_content {
+        transform:translateY(135px);
+    }
+
+    /* 기록 */
+    #main #club_hty .hty_content {
+        width:64%;
+    }
+    #main #club_hty .hty_content .hty_con {
+        margin-bottom:90px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_img {
+        height:220px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_text {
+        font-size:15px;
+    }
+
+     /* 상단 바로가기 */
+    .bnt {
+        font-size:13px;
+    }
+    .Topbnt {
+        width:54px;
+        height:54px;
+    }
+
+    /* 파트너 */
+    #partner {
+        height:70px;
+    }
+    #partner .move_pt a {
+        margin-right:2em;
+    }
+
+    /* 푸터 */
+    footer {
+        font-size:11px;
+    }
+    #footer .f_top .f_logo{
+        width:120px;
+    }
+    #footer .f_bot .f_right a {
+        height:30px;
+    }
+
+}
+
+@media screen and (max-width:913px) {
+
+    /* 배너 */
+    #topbanner {
+        height:320px;
+    }
+    #topbanner .ban_title {
+        font-size:11px;
+    }
+    #topbanner #nav {
+        width:70%;
+        left:15%;
+        height:35px;
+        font-size:16px;
+        border-radius:7px 7px 0 0;
+    }
+    #topbanner #nav .moveline {
+        height:3px;
+        left:3.6%;
+    }
+
+    /* section */
+    section h2 {
+        font-size:38px;
+    }#main #club_grt .grt_title p, #main #club_hty>p {
+        font-size:13px;
+    }
+
+    /* 구단 인사말 */
+    #main #club_grt {
+        margin:140px 0 90px;
+    }
+    #main #club_hty {
+        padding:90px 0 0;
+    }
+
+    /* 히어로즈 기록 */
+    #main #club_hty .hty_button {
+        width:42%;
+        height:565px;
+        left:29%;
+        top:130px;
+        font-size:16px;
+    }
+    #main #club_hty .hty_button .hty_Mbtn {
+        padding:14px 0;
+    }
+    #main #club_hty .hty_button .hty_Sbtn ul li {
+        padding:14px 0;
+    }
+    #main #club_hty .hty_button .hty_Mbtn span  {
+        top:20px;
+    }
+    #main #club_hty .hty_content {
+        transform:translateY(125px);
+    }
+    #main #club_grt .grt_img {
+        width:100%;
+        height:230px;
+        border-radius:0;
+        margin:2em auto;
+    }
+    #main #club_grt .grt_text {
+        font-size:14px; 
+    }
+
+    /* 기록 */
+    #main #club_hty .hty_content {
+        width:70%;
+    }
+    #main #club_hty .hty_content .hty_con {
+        margin-bottom:70px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_img {
+        height:220px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_text {
+        font-size:15px;
+    }
+
+    footer {
+        font-size:12px;
+    }
+    #footer {
+        margin:8em auto;
+    }
+    #footer .f_top {
+        margin-bottom:6em;
+        justify-content:center;
+    }
+    #footer .f_top .f_nav {
+        display:none;
+    }
+    #footer .f_bot {
+        text-align:center;
+        display:block;
+    }
+    #footer .f_bot .f_left div {
+        padding-bottom:8px;
+    }
+    #footer .f_bot .f_right {
+        margin-top:20px;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+    footer {
+        font-size:13px;
+    }
+    #footer {
+        width:78%;
+    }
+
+}
+
+@media screen and (max-width:766px) {
+
+    /* 헤더 */
+    header {
+        font-size:12px;
+        height:8vh;
+    }
+    #header {
+        height:8vh;
+    }
+    .logo {
+        padding-left:25px;
+    }
+    header::before, header::after, .header_nav,.header_right {
+        display:none;
+    }
+    .ham {
+        color:#fff;
+        font-size:2.1em;
+        line-height:8vh;
+        display:inline-block;
+        position:absolute;
+        right:25px;
+        top:0;
+        z-index:99;
+    }
+    #mobilnav {
+        display:block;
+    }
+
+    /* 배너 */
+    #topbanner {
+        height:310px;
+    }
+    #topbanner .ban_title {
+        font-size:11px;
+    }
+    #topbanner #nav {
+        width:84%;
+        left:8%;
+        height:35px;
+        font-size:16px;
+        border-radius:7px 7px 0 0;
+    }
+    #topbanner #nav .moveline {
+        height:3px;
+        left:3.6%;
+    }
+
+    /* section */
+    section h2 {
+        font-size:30px;
+    }#main #club_grt .grt_title p, #main #club_hty>p {
+        font-size:11px;
+    }
+
+    /* 구단 인사말 */
+    #main #club_grt {
+        margin:100px 0 80px;
+    }
+    #main #club_hty {
+        padding:80px 0 0;
+    }
+    #main #club_grt .grt_img {
+        width:100%;
+        height:190px;
+        border-radius:0;
+    }
+    #main #club_grt .grt_text {
+        font-size:12px; 
+    }
+
+    /* 히어로즈 기록 */
+    #main #club_hty .hty_button {
+        width:42%;
+        height:565px;
+        left:29%;
+        top:100px;
+        font-size:14px;
+    }
+    #main #club_hty .hty_button .hty_Mbtn {
+        padding:12px 0;
+        border-radius:7px;
+    }
+    #main #club_hty .hty_button .hty_Sbtn {
+        padding:7px 0;
+    }
+    #main #club_hty .hty_button .hty_Sbtn ul li {
+        padding:12px 0;
+        border-radius:7px;
+        margin-bottom:3px;
+    }
+    #main #club_hty .hty_button .hty_Mbtn span  {
+        top:18px;
+        left:20px;
+        width:7px;
+        height:7px;
+        border-top:2px solid #fff;
+        border-right:2px solid #fff;
+    }
+    #main #club_hty .hty_content {
+        transform:translateY(110px);
+    }
+
+    /* 기록 */
+    #main #club_hty .hty_content {
+        width:95%;
+    }
+    #main #club_hty .hty_content .hty_con {
+        margin-bottom:70px;
+    }
+    #main #club_hty .hty_content .hty_con:last-child {
+        margin-bottom:90px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_img {
+        height:220px;
+        border-radius:7px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_text {
+        font-size:15px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_text p { margin-bottom:12px;}
+
+    /* 상단 바로가기 */
+    .bnt {
+        font-size:12px;
+        padding:0 1em 6em 0;
+    }
+    .Topbnt {
+        width:50px;
+        height:50px;
+    }
+
+    /* 파트너 */
+    #partner {
+        height:70px;
+    }
+    #partner .main_pt {
+        width:19%;
+    }
+    #partner .move_pt a {
+        margin-right:2em;
+    }
+    #footer {
+        width:85%;
+    }
+    #footer .f_top {
+        margin-bottom:4em;
+    }
+    #footer .f_top .f_logo {
+        width:110px;
+    }
+    #footer .f_bot .f_left div a {
+        border-right:1px solid #c7c7c7;
+    }
+
+
+}
+
+@media screen and (max-width:666px) {
+
+    #footer {
+        width:80%;
+    }
+    #footer .f_bot .f_left div a {
+        padding:0 9px;
+    }
+
+}
+
+@media screen and (max-width:606px) {
+
+    #topbanner #nav  {
+        font-size:14px;
+    }
+    #topbanner #nav .moveline {
+        height:2px;
+        left:3%;
+    }
+    footer {
+        font-size:10px;
+    }
+    #footer .f_bot .f_right a {
+        height:28px;
+    }
+    #v_wrap .video #player_text .player_dt {
+        line-height:auto;
+    }
+}
+
+@media screen and (max-width:596px) {
+    /* 히어로즈 기록 */
+    #main #club_hty .hty_button {
+        width:50%;
+        height:565px;
+        left:25%;
+        top:100px;
+        font-size:14px;
+    }
+}
+
+@media screen and (max-width:516px) {
+    
+    footer {
+        font-size:5px;
+    }
+    #footer .f_top {
+        margin-bottom:7em;
+    }
+    #footer .f_top .f_logo {
+        width:80px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    /* 헤더 */
+    header {
+        font-size:12px;
+        height:6vh;
+    }
+    #header {
+        height:6vh;
+    }
+    .logo {
+        padding-left:15px;
+    }
+    header::before, header::after, .header_nav,.header_right {
+        display:none;
+    }
+    .ham {
+        right:13px;
+        color:#fff;
+        font-size:2.1em;
+        line-height:8vh;
+        display:inline-block;
+
+    }
+    #header .ham div {
+        width:20px;
+        height:16px;
+        margin:19px auto 0;
+    }
+    .ham div span {
+        width:20px;
+        height:2px;
+        background-color:#fff;
+        margin-bottom:5px;
+        display:block;
+    }
+    #mobilnav {
+        width:100%;
+        transform:translateX(-1px);
+    }
+
+    /* 배너 */
+    #topbanner {
+        height:230px;
+    }
+    #topbanner .ban_title {
+        font-size:10px;
+    }
+    #topbanner #nav {
+        width:100%;
+        left:0;
+        height:35px;
+        font-size:14px;
+        border-radius:0;
+    }
+    #topbanner #nav .moveline {
+        height:2px;
+        left:3%;
+    }
+
+    /* section */
+    section h2 {
+        font-size:30px;
+    }#main #club_grt .grt_title p, #main #club_hty>p {
+        font-size:11px;
+    }
+
+    /* 구단 인사말 */
+    #main #club_grt {
+        margin:100px 0 80px;
+        text-align:left;
+    }
+    #main #club_grt .grt_title p {
+        text-align:center;
+    }
+    #main #club_hty {
+        padding:80px 0 0;
+    }
+    #main #club_grt .grt_img {
+        width:100%;
+        height:130px;
+        border-radius:0;
+    }
+    #main #club_grt .grt_text {
+        font-size:12px; 
+        margin:0 14px;
+    }
+
+    /* 기록 버튼 */
+    #main #club_hty .hty_button {
+        width:58%;
+        height:400px;
+        left:21%;
+        top:100px;
+        font-size:12px;
+    }
+    #main #club_hty .hty_button .hty_Mbtn {
+        padding:10px 0;
+        border-radius:7px;
+    }
+    #main #club_hty .hty_button .hty_Sbtn {
+        padding:7px 0;
+        margin:4px 0 0;
+    }
+    #main #club_hty .hty_button .hty_Sbtn ul li {
+        padding:10px 0;
+        border-radius:7px;
+        margin-bottom:3px;
+    }
+    #main #club_hty .hty_button .hty_Mbtn span  {
+        top:14px;
+        left:20px;
+        width:7px;
+        height:7px;
+        border-top:2px solid #fff;
+        border-right:2px solid #fff;
+    }
+    #main #club_hty .hty_content {
+        transform:translateY(100px);
+    }
+
+    /* 기록 내용 */
+    #main #club_hty .hty_content {
+        width:99%;
+    }
+    #main #club_hty .hty_content .hty_con {
+        margin-bottom:70px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_img {
+        height:180px;
+        border-radius:7px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_text {
+        font-size:12px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_text p { margin-bottom:12px;}
+
+
+    /* 상단 바로가기 */
+    .bnt {
+        font-size:12px;
+        padding:1em 1em 5em 0;
+    }
+    .Topbnt {
+        width:47px;
+        height:47px;
+    }
+
+    /* 파트너 */
+    #partner {
+        height:60px;
+    }
+    #partner .main_pt {
+        width:21%;
+    }
+    #partner .move_pt {
+        margin-left:1em;
+    }
+    #partner .move_pt a {
+        margin-right:1em;
+    }
+
+    /* 푸터 */
+    footer {
+        font-size:10px;
+    }
+    #footer {
+        margin:6em auto;
+        width: 94%;
+    }
+    #footer .f_top {
+        margin-bottom:3em;
+    }
+    #footer .f_top .f_logo{
+        width:80px;
+        margin:0 auto;
+    }
+    #footer .f_top .f_nav {
+        display:none;
+    }
+    #footer .f_bot .f_left {
+        margin:0 auto 25px;
+    }
+    #footer .f_bot .f_left div {
+        padding-bottom:5px;
+    }
+    #footer .f_bot .f_left div a {
+        padding:0 9px;
+        border-right:1px solid #c7c7c7;
+    }
+    #footer .f_bot .f_right {
+        margin:auto;
+    }
+    #footer .f_bot .f_right a {
+        height:22px;
+        padding-left:12px;
+    }
+    #footer .f_bot .f_right a:first-child {
+        padding-left:0;
+    }
+
+}
+@media screen and (max-width:481px) {
+
+    #footer .f_top .f_logo {
+        width:60px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    /* 해더 */
+    header {
+        height:5.2vh;
+    }
+    #header {
+        height:5.2vh;
+    }
+    .ham {
+        line-height:5.2vh;
+    }
+    .ham div {
+        width:17px;
+        height:16px;
+        margin:14px auto 0;
+    }
+    .ham div span {
+        width:17px;
+        height:2px;
+        background-color:#fff;
+        margin-bottom:5px;
+        display:block;
+    }
+    #mobilnav {
+        font-size: 10px;
+    }
+
+    /* 배너 */
+    #topbanner #nav {
+        height:28px;
+        font-size:11px;
+    }
+    #topbanner #nav .moveline {
+        height:2px;
+        left:2.2%;
+    }
+
+    /* 구단 인사말 */
+    #main #club_grt {
+        margin:80px 0 50px;
+        text-align:left;
+    }
+    #main #club_grt .grt_title p {
+        text-align:center;
+    }
+    #main #club_hty {
+        padding:50px 0 0;
+    }
+    #main #club_grt .grt_img {
+        width:100%;
+        height:120px;
+        border-radius:0;
+    }
+    #main #club_grt .grt_text {
+        font-size:12px; 
+        margin:0 5px;
+    }
+
+    /* section */
+    section h2 {
+        font-size:26px;
+        padding-bottom:2px;
+    }
+    #main #club_grt .grt_title p, #main #club_hty>p {
+        font-size:10px;
+    }
+
+    /* 기록 버튼 */
+    #main #club_hty .hty_button {
+        width:64%;
+        height:400px;
+        left:18%;
+        top:50px;
+        font-size:11px;
+    }
+    #main #club_hty .hty_button .hty_Mbtn {
+        padding:9px 0;
+        border-radius:7px;
+    }
+    #main #club_hty .hty_button .hty_Sbtn {
+        padding:7px 0;
+        margin:4px 0 0;
+    }
+    #main #club_hty .hty_button .hty_Sbtn ul li {
+        padding:9px 0;
+        border-radius:7px;
+        margin-bottom:3px;
+    }
+    #main #club_hty .hty_button .hty_Mbtn span  {
+        top:13px;
+        left:20px;
+        width:6px;
+        height:6px;
+        border-top:1px solid #fff;
+        border-right:1px solid #fff;
+    }
+    #main #club_hty .hty_content {
+        transform:translateY(80px);
+    }
+
+    /* 기록 내용 */
+    #main #club_hty .hty_content {
+        width:99%;
+    }
+    #main #club_hty .hty_content .hty_con {
+        margin-bottom:39px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_img {
+        width:100%;
+        height:180px;
+        border-radius:7px;
+    }
+    #main #club_hty .hty_content .hty_con .hty_text {
+        font-size:11px;
+        text-align:left;
+        width:100%;
+    }
+    
+    #main #club_hty .hty_content .hty_con .hty_text p {
+        margin-top:10px;
+        margin-bottom:2px;
+    }
+
+    #main #club_hty .hty_content .hty_con .hty_img, #main #club_hty .hty_content .hty_con .hty_text {
+        clear: both;
+    }
+
+    /* 상단 바로가기 */
+    .bnt {
+        font-size:11px;
+        padding:1em 1em 4em 0;
+    }
+    .Topbnt {
+        width:42px;
+        height:42px;
+    }
+
+    /* 파트너 */
+    #partner .main_pt {
+        width:24%;
+    }
+
+    /* 푸터 */
+    footer {
+        font-size:7px;
+    }
+    #footer {
+        width:99%;
+    }
+    #footer .f_top .f_logo {
+        width:60px;
+    }
+
+}

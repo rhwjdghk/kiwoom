@@ -1,0 +1,696 @@
+
+@media screen and (max-width:1457px) {
+
+    #main #main_gnb {
+        font-size:18px;
+    }
+    #main #main_gnb ul li {
+        padding:15px 0;
+    }
+    .pf_content .pf_con {
+        font-size:16px;
+    }
+    .pf_content .pf_con .text {
+        margin-left:17px;
+    }
+    footer {
+        font-size:14px;
+    }
+    #footer .f_top .f_nav ul {
+        padding-left:4em;
+    }
+
+}
+@media screen and (max-width:1300px) {
+    #topbanner {
+        height:480px;
+    }
+    footer {
+        font-size:13px;
+    }
+    #footer .f_top .f_nav ul {
+        padding-left:3em;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+
+    /* header */
+    header {
+        font-size:13px;
+        height:44vh;
+    }
+    #header {
+        height:9vh;
+    }
+    .header_bg::after {
+        top:9vh;
+    }
+    .header_nav .gnb>li {
+        padding-right:3em;
+        width:5%;
+    }
+    .header_nav .gnb>li>a {
+        line-height:10vh;
+    }
+    .header_nav .header_sub {
+        position:absolute;
+        left:0;
+        top:70px;
+    }
+    .header_right {
+        height:9vh;
+    }
+
+    /* 배너 */
+    #topbanner {
+        height:400px;
+    }
+    #topbanner .ban_title {
+        font-size:14px;
+    }
+
+    /* 메인화면 - 네비 */
+    #main #main_gnb {
+        width:73%;
+        margin:80px auto 0;
+        font-size:17px;
+    }
+    #main #main_gnb ul li {
+        padding:12px 0;
+    }
+
+    /* 메인화면 코칭스탭 공통 */
+    section {
+        width:83%;
+        margin:auto;
+        margin-top: 100px;
+    }
+    section h2 {
+        font-size:19px;
+        margin-bottom:20px;
+    }
+    .pf_content .pf_con {
+        height:20vw;
+        margin-bottom:22px;
+    }
+    .pf_content .pf_con .text p {
+        margin:3px 0 20px;
+    }
+    section:last-child {
+        margin-bottom:90px;
+    }
+
+    .Topbnt {
+        width:54px;
+        height:54px;
+        font-size:13px;
+    }
+
+    /* 파트너 */
+    #partner {
+        height:80px;
+    }
+    #partner .move_pt a {
+        margin-right:2em;
+    }
+
+    /* 푸터 */
+    footer {
+        font-size:13px;
+    }
+    #footer .f_bot .f_right a {
+        height:30px;
+    }
+
+}
+
+@media screen and (max-width:1023px) and (min-width:767px) {
+
+    /* 헤더 */
+    header {
+        font-size:11px;
+        height:37vh;
+    }
+    #header {
+        height:8vh;
+    }
+    .header_bg::after {
+        top:8vh;
+    }
+    .header_nav .gnb>li>a {
+        line-height:9vh;
+    }
+    .header_nav .gnb .m span {
+        height:2px;
+    }
+    .header_nav .header_sub {
+        position:absolute;
+        left:0;
+        top:60px;
+    }
+    .header_right {
+        height:8vh;
+    }
+    .header_nav .gnb>li {
+        padding-right:2em;
+    }
+    .header_sub>li>a {
+        padding-bottom:15px;
+    }
+
+
+    /* 배너 */
+    #topbanner {
+        height:350px;
+    }
+    #topbanner .ban_title {
+        font-size:14px;
+    }
+
+    /* 메인화면 - 네비 */
+    #main #main_gnb {
+        width:73%;
+        margin:80px auto 0;
+        font-size:15px;
+    }
+    #main #main_gnb ul li {
+        padding:12px 0;
+    }
+    section {
+        width:89%;
+        margin:auto;
+        margin-top: 100px;
+    }
+    section h2 {
+        font-size:17px;
+        margin-bottom:20px;
+    }
+    .pf_content .pf_con {
+        height:20vw;
+        margin-bottom:22px;
+        font-size:12px;
+    }
+    .pf_content .pf_con .text p {
+        margin:3px 0 20px;
+    }
+    .pf_content .pf_con>img {
+        bottom:-8px;
+    }
+    .pf_content .pf_con>img:last-child {
+        width:100%;
+        top:0;
+    }
+    section:last-child {
+        margin-bottom:90px;
+    }
+
+    /* 상단 바로가기 */
+    .Topbnt {
+        width:54px;
+        height:54px;
+        font-size:13px;
+        margin:0 4em 6em 0;
+    }
+
+
+    /* 파트너 */
+    #partner {
+        height:70px;
+    }
+    #partner .move_pt a {
+        margin-right:2em;
+    }
+
+    /* 푸터 */
+    footer {
+        font-size:11px;
+    }
+    #footer .f_top .f_logo{
+        width:120px;
+    }
+    #footer .f_bot .f_right a {
+        height:30px;
+    }
+
+}
+
+@media screen and (max-width:913px) {
+
+    /* 배너 */
+    #topbanner {
+        height:320px;
+    }
+
+    footer {
+        font-size:12px;
+    }
+    #footer {
+        margin:8em auto;
+    }
+    #footer .f_top {
+        margin-bottom:6em;
+        justify-content:center;
+    }
+    #footer .f_top .f_nav {
+        display:none;
+    }
+    #footer .f_bot {
+        text-align:center;
+        display:block;
+    }
+    #footer .f_bot .f_left div {
+        padding-bottom:8px;
+    }
+    #footer .f_bot .f_right {
+        margin-top:20px;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+    footer {
+        font-size:13px;
+    }
+    #footer {
+        width:78%;
+    }
+
+}
+
+@media screen and (max-width:766px) {
+
+    /* 헤더 */
+    header {
+        font-size:12px;
+        height:8vh;
+    }
+    #header {
+        height:8vh;
+    }
+    .logo {
+        padding-left:25px;
+    }
+    header::before, header::after, .header_nav,.header_right {
+        display:none;
+    }
+    .ham {
+        color:#fff;
+        font-size:2.1em;
+        line-height:8vh;
+        display:inline-block;
+        position:absolute;
+        right:25px;
+        top:0;
+        z-index:99;
+    }
+    #mobilnav {
+        display:block;
+    }
+
+    /* 배너 */
+    #topbanner {
+        height:310px;
+    }
+    #topbanner .ban_title {
+        font-size:12px;
+    }
+
+    /* 메인화면 - 네비 */
+    #main #main_gnb {
+        width:85%;
+        margin:50px auto 0;
+        font-size:13px;
+    }
+    #main #main_gnb ul li {
+        padding:10px 0;
+    }
+    section {
+        width:92%;
+        margin:auto;
+        margin-top: 60px;
+    }
+    section h2 {
+        font-size:13px;
+        margin-bottom:13px;
+    }
+    .pf_content .pf_con {
+        height:20vw;
+        margin-bottom:22px;
+        font-size:10px;
+    }
+    .pf_content .pf_con .text p {
+        margin:3px 0 20px;
+    }
+    .pf_content .pf_con .text .num {
+        width:29%;
+    }
+    .pf_content .pf_con:nth-child(8) .num {
+        width:25%;
+    }
+    .pf_content .pf_con>img:nth-child(2) {
+        bottom:-8px;
+    }
+    section:last-child {
+        margin-bottom:80px;
+    }
+
+    .Topbnt {
+        width:50px;
+        height:50px;
+        font-size:12px;
+        margin:0 3em 6em 0;
+    }
+
+    /* 파트너 */
+    #partner {
+        height:70px;
+        margin-top:0;
+    }
+    #partner .main_pt {
+        width:19%;
+    }
+    #partner .move_pt a {
+        margin-right:2em;
+    }
+    #footer {
+        width:85%;
+    }
+    #footer .f_top {
+        margin-bottom:4em;
+    }
+    #footer .f_top .f_logo {
+        width:110px;
+    }
+    #footer .f_bot .f_left div a {
+        border-right:1px solid #c7c7c7;
+    }
+
+
+}
+
+@media screen and (max-width:666px) {
+
+    #footer {
+        width:80%;
+    }
+    #footer .f_bot .f_left div a {
+        padding:0 9px;
+    }
+
+}
+
+@media screen and (max-width:606px) {
+
+    footer {
+        font-size:10px;
+    }
+    #footer .f_bot .f_right a {
+        height:28px;
+    }
+    #v_wrap .video #player_text .player_dt {
+        line-height:auto;
+    }
+}
+
+@media screen and (max-width:516px) {
+    
+    footer {
+        font-size:5px;
+    }
+    #footer .f_top {
+        margin-bottom:7em;
+    }
+    #footer .f_top .f_logo {
+        width:80px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    /* 헤더 */
+    header {
+        font-size:12px;
+        height:6vh;
+    }
+    #header {
+        height:6vh;
+    }
+    .logo {
+        padding-left:15px;
+    }
+    header::before, header::after, .header_nav,.header_right {
+        display:none;
+    }
+    .ham {
+        right:13px;
+        color:#fff;
+        font-size:2.1em;
+        line-height:8vh;
+        display:inline-block;
+
+    }
+    #header .ham div {
+        width:20px;
+        height:16px;
+        margin:19px auto 0;
+    }
+    .ham div span {
+        width:20px;
+        height:2px;
+        background-color:#fff;
+        margin-bottom:5px;
+        display:block;
+    }
+    #mobilnav {
+        width:100%;
+        transform:translateX(-1px);
+    }
+
+    /* 배너 */
+    #topbanner {
+        height:230px;
+    }
+    #topbanner .ban_title {
+        font-size:10px;
+    }
+
+    /* 메인화면 - 네비 */
+    #main #main_gnb {
+        width:76%;
+        margin:50px auto 0;
+        font-size:11px;
+    }
+    #main #main_gnb ul {
+        grid-template-columns:repeat(4,25.3%);
+        grid-template-rows:repeat(2,1fr);
+    }
+    #main #main_gnb ul li {
+        margin-bottom:5px;
+        border-radius:5px;
+        padding:10px 0;
+    }
+    section {
+        width:97%;
+        margin:auto;
+        margin-top: 60px;
+    }
+    section h2 {
+        font-size:13px;
+        margin-bottom:13px;
+    }
+    .pf_content .pf_con {
+        width:49%;
+        height:160px;
+        margin-bottom:23px;
+        font-size:10px;
+    }
+    .pf_content .pf_con .text p {
+        margin:3px 0 20px;
+    }
+    .pf_content .pf_con .text .num {
+        width:29%;
+        height:50px;
+    }
+    .pf_content .pf_con:nth-child(8) .num {
+        width:25%;
+    }
+    .pf_content .pf_con>img:nth-child(2) {
+        bottom:-8px;
+    }
+    section:last-child {
+        margin-bottom:80px;
+    }
+
+    /* 상단 바로가기 */
+    .Topbnt {
+        width:47px;
+        height:47px;
+        margin:0 1em 5em 0;
+    }
+
+    /* 파트너 */
+    #partner {
+        height:60px;
+    }
+    #partner .main_pt {
+        width:21%;
+    }
+    #partner .move_pt {
+        margin-left:1em;
+    }
+    #partner .move_pt a {
+        margin-right:1em;
+    }
+
+    /* 푸터 */
+    footer {
+        font-size:10px;
+    }
+    #footer {
+        margin:6em auto;
+        width: 94%;
+    }
+    #footer .f_top {
+        margin-bottom:3em;
+    }
+    #footer .f_top .f_logo{
+        width:80px;
+        margin:0 auto;
+    }
+    #footer .f_top .f_nav {
+        display:none;
+    }
+    #footer .f_bot .f_left {
+        margin:0 auto 25px;
+    }
+    #footer .f_bot .f_left div {
+        padding-bottom:5px;
+    }
+    #footer .f_bot .f_left div a {
+        padding:0 9px;
+        border-right:1px solid #c7c7c7;
+    }
+    #footer .f_bot .f_right {
+        margin:auto;
+    }
+    #footer .f_bot .f_right a {
+        height:22px;
+        padding-left:12px;
+    }
+    #footer .f_bot .f_right a:first-child {
+        padding-left:0;
+    }
+
+}
+@media screen and (max-width:481px) {
+
+    #footer .f_top .f_logo {
+        width:60px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    /* 해더 */
+    header {
+        height:5.2vh;
+    }
+    #header {
+        height:5.2vh;
+    }
+    .ham {
+        line-height:5.2vh;
+    }
+    .ham div {
+        width:17px;
+        height:16px;
+        margin:14px auto 0;
+    }
+    .ham div span {
+        width:17px;
+        height:2px;
+        background-color:#fff;
+        margin-bottom:5px;
+        display:block;
+    }
+    #mobilnav {
+        font-size: 10px;
+    }
+
+    /* 메인화면 - 네비 */
+    #main #main_gnb {
+        width:80%;
+        margin:30px auto 0;
+        font-size:10px;
+    }
+    #main #main_gnb ul {
+        grid-template-columns:repeat(4,25.5%);
+        grid-template-rows:repeat(2,1fr);
+    }
+    #main #main_gnb ul li {
+        margin-bottom:5px;
+        margin-right:3px;
+        border-radius:4px;
+        padding:10px 0;
+    }
+    section {
+        width:99%;
+        margin:auto;
+        margin-top:45px;
+    }
+    section h2 {
+        font-size:11px;
+        margin-bottom:9px;
+    }
+    .pf_content .pf_con {
+        width:49%;
+        height:140px;
+        border-radius:6px;
+        margin-bottom:10px;
+        font-size:10px;
+    }
+    .pf_content .pf_con .text p {
+        margin:3px 0 20px;
+    }
+    .pf_content .pf_con .text .num {
+        width:29%;
+        height:50px;
+    }
+    .pf_content .pf_con:nth-child(8) .num {
+        width:25%;
+    }
+    .pf_content .pf_con>img:nth-child(2) {
+        bottom:-8px;
+    }
+    section:last-child {
+        margin-bottom:50px;
+    }
+
+    .Topbnt {
+        width:42px;
+        height:42px;
+        font-size:11px;
+        margin:1em 1em 4em 0;
+    }
+
+
+    /* 파트너 */
+    #partner .main_pt {
+        width:24%;
+    }
+
+    /* 푸터 */
+    footer {
+        font-size:7px;
+    }
+    #footer {
+        width:99%;
+    }
+    #footer .f_top .f_logo {
+        width:60px;
+    }
+
+}
